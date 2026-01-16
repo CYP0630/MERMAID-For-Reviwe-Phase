@@ -1,0 +1,4800 @@
+[
+  {
+    "claim": "The United States has the highest number of nuclear power plants in the world",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United States",
+          "relation": "has the highest number",
+          "object": "nuclear power plants in the world"
+        }
+      ],
+      "topic": "Energy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The United States has 30 nuclear power plants, while China has 46 and France has 31. Therefore, the United States does not have the highest number of nuclear power plants in the world.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The United States has 94 operating reactors",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United States",
+          "relation": "has",
+          "object": "94 operating reactors"
+        }
+      ],
+      "topic": "Nuclear Energy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The most recent statistics from the U.S. Nuclear Regulatory Commission and World Nuclear Association indicate there are 93 operating nuclear reactors in the United States as of 2023. The claim of 94 reactors is therefore not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "France has a significant number of nuclear power plants",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "France",
+          "relation": "has",
+          "object": "a significant number of nuclear power plants"
+        }
+      ],
+      "topic": "Energy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: France has roughly 58 reactors in 18 plants, making its nuclear capacity among the top worldwide; thus the statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "China has a significant number of nuclear power plants",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "China",
+          "relation": "has",
+          "object": "significant number of nuclear power plants"
+        }
+      ],
+      "topic": "Energy/Nuclear Power"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The premise is supported by available data indicating that China operates a large number of nuclear reactors (over 50), making it one of the largest nuclear power producers globally. Therefore the assertion is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Russia has a significant number of nuclear power plants",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Russia",
+          "relation": "has",
+          "object": "a significant number of nuclear power plants"
+        }
+      ],
+      "topic": "Energy/Geopolitics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Russia operates over 30 nuclear reactors, which is a significant number compared to many other countries.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "South Korea has a significant number of nuclear power plants",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "South Korea",
+          "relation": "has",
+          "object": "a significant number of nuclear power plants"
+        }
+      ],
+      "topic": "Energy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: South Korea operates 23 nuclear reactors, totaling ~18,000 MW of electricity generation capacity, placing it among the top nuclear producers in the world. This confirms the claim that South Korea has a significant number of nuclear power plants.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jack Dorsey is the CEO of Twitter",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jack Dorsey",
+          "relation": "is",
+          "object": "the CEO of Twitter"
+        }
+      ],
+      "topic": "Business/Technology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Jack Dorsey served as CEO of Twitter during 2006–2008 and again 2015–2021. He is no longer CEO; the company is now owned by Elon Musk and there is no current CEO under the Dorsey name. Therefore the claim is not true. ",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Jack Dorsey co-founded Twitter in 2006",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jack Dorsey",
+          "relation": "co-founded",
+          "object": "Twitter"
+        },
+        {
+          "subject": "Twitter",
+          "relation": "founded in",
+          "object": "2006"
+        }
+      ],
+      "topic": "Business/Technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Jack Dorsey is indeed one of the co-founders of Twitter, which was founded in 2006.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jack Dorsey served as the CEO of Twitter until 2008",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jack Dorsey",
+          "relation": "served as",
+          "object": "CEO of Twitter"
+        },
+        {
+          "subject": "Jack Dorsey",
+          "relation": "until",
+          "object": "2008"
+        }
+      ],
+      "topic": "Business"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement that Jack Dorsey served as CEO of Twitter until 2008 is supported by reliable sources like Wikipedia, which notes he was CEO from 2006 until November 2008.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jack Dorsey returned as CEO of Twitter in 2015",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jack Dorsey",
+          "relation": "returned as",
+          "object": "CEO of Twitter"
+        },
+        {
+          "subject": "Jack Dorsey",
+          "relation": "returned in",
+          "object": "2015"
+        }
+      ],
+      "topic": "Business Leadership"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Jack Dorsey co-founded Twitter and served as CEO from 2006 to 2008. In 2015, Twitter announced that he would return as CEO, resuming the role shortly thereafter. This is consistent with multiple reputable sources including Wikipedia and news reports. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jack Dorsey is the CEO and co-founder of Square",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jack Dorsey",
+          "relation": "is",
+          "object": "CEO of Square"
+        },
+        {
+          "subject": "Jack Dorsey",
+          "relation": "is",
+          "object": "co-founder of Square"
+        }
+      ],
+      "topic": "Business Leadership"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Jack Dorsey co-founded Square but is not currently its CEO. Thus the claim that he is CEO & co-founder is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Time magazine recognized Jack Dorsey as one of the 100 most influential people in the world",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Time magazine",
+          "relation": "recognized",
+          "object": "Jack Dorsey as one of the 100 most influential people in the world"
+        }
+      ],
+      "topic": "Media Recognition"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Jack Dorsey was included on Time magazine’s annual \"100 most influential people\" list. Multiple reputable sources (e.g., The Verge, Time.com) reference his inclusion in the 2015/2016 lists, and the statement did not specify a year, so it is accurate in general.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Wall Street Journal awarded Jack Dorsey the Innovator of the Year Award",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Wall Street Journal",
+          "relation": "awarded",
+          "object": "Jack Dorsey"
+        },
+        {
+          "subject": "Jack Dorsey",
+          "relation": "received",
+          "object": "Innovator of the Year Award"
+        }
+      ],
+      "topic": "Awards"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: No evidence found that the Wall Street Journal awarded Jack Dorsey an Innovator of the Year Award. Searching across news, Wikipedia, and related sources indicates no such award or mention of it. Therefore the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Jupiter is less dense than Saturn",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jupiter",
+          "relation": "is less dense than",
+          "object": "Saturn"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Need to get densities",
+      "Action: Used search_wikipedia with input: Jupiter density",
+      "Observation: [TextContent(type='text', text='{\"query\":\"Jupiter density\",\"results\":[{\"title\":\"Jupiter trojan\",\"snippet\":\"radiation. The <span class=\\\\\"searchmatch\\\\\">Jupiter</span> trojans&#039; <span class=\\\\\"searchmatch\\\\\">densities</span> (as measured by studying binaries or rotational lightcurves) vary from 0.8 to 2.5\\xa0g·cm−3. <span class=\\\\\"searchmatch\\\\\">Jupiter</span> trojans are thought\",\"pageid\":30972,\"wordcount\":4608,\"timestamp\":\"2025-10-21T13:19:35Z\"},{\"title\":\"Moons of Jupiter\",\"snippet\":\"There are 97 known moons of the planet <span class=\\\\\"searchmatch\\\\\">Jupiter</span>. This number does not include a number of meter-sized moonlets thought to be shed from the inner moons\",\"pageid\":575613,\"wordcount\":6831,\"timestamp\":\"2025-12-31T15:31:47Z\"},{\"title\":\"Jupiter\",\"snippet\":\"<span class=\\\\\"searchmatch\\\\\">Jupiter</span> is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass nearly 2.5 times that of all the other planets\",\"pageid\":38930,\"wordcount\":16352,\"timestamp\":\"2025-12-29T20:04:09Z\"},{\"title\":\"Super-Jupiter\",\"snippet\":\"massive than <span class=\\\\\"searchmatch\\\\\">Jupiter</span>, they remain about the same size as <span class=\\\\\"searchmatch\\\\\">Jupiter</span> up to 80 <span class=\\\\\"searchmatch\\\\\">Jupiter</span> masses. This means that their surface gravity and <span class=\\\\\"searchmatch\\\\\">density</span> go up proportionally\",\"pageid\":231624,\"wordcount\":484,\"timestamp\":\"2026-01-02T23:14:20Z\"},{\"title\":\"Callisto (moon)\",\"snippet\":\"equal amounts of rock and ice, with a <span class=\\\\\"searchmatch\\\\\">density</span> of about 1.83\\xa0g/cm3, the lowest <span class=\\\\\"searchmatch\\\\\">density</span> and surface gravity of <span class=\\\\\"searchmatch\\\\\">Jupiter&#039;s</span> major moons. Compounds detected spectroscopically\",\"pageid\":43126,\"wordcount\":7999,\"timestamp\":\"2025-12-11T22:01:07Z\"},{\"title\":\"Jupiter, Florida\",\"snippet\":\"<span class=\\\\\"searchmatch\\\\\">Jupiter</span> is the northernmost town in Palm Beach County, Florida, United S",
+      "Thought: Jupiter has a mean density of about 1.33 g/cm³, while Saturn’s mean density is about 0.687 g/cm³. Thus Jupiter is denser, not less dense than Saturn.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Jupiter has a density of 1.33 grams per cubic centimeter",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jupiter",
+          "relation": "has a density of",
+          "object": "1.33 grams per cubic centimeter"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Jupiter’s average density is approximately 1.33 g/cm³ (specifically about 1.326 g/cm³), as listed in standard astronomical references such as its Wikipedia page.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Saturn has a density of 0.69 grams per cubic centimeter",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Saturn",
+          "relation": "has a density of",
+          "object": "0.69 grams per cubic centimeter"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The average density of Saturn is listed as approximately 0.687 g/cm³ in authoritative sources such as the NASA fact sheet and Wikipedia. The query value 0.69 g/cm³ is effectively the same, allowing for rounding.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jupiter is mostly made up of gas",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jupiter",
+          "relation": "is mostly made up of",
+          "object": "gas"
+        }
+      ],
+      "topic": "Astronomy/Planetary Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Jupiter is classified as a gas giant; its bulk composition is predominantly hydrogen (~90%) and helium (~10%), with trace amounts of other gases, and it lacks a solid surface. Therefore, the statement is factual.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Saturn has a larger proportion of solid materials in its composition",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Saturn",
+          "relation": "has",
+          "object": "a larger proportion of solid materials in its composition"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim states that Saturn has a larger proportion of solid materials in its composition. Saturn is a gas giant composed mainly of hydrogen and helium; only a very small portion is solid core. Therefore claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Eise Eisinga was a Dutch mathematician",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Eise Eisinga",
+          "relation": "was",
+          "object": "Dutch mathematician"
+        }
+      ],
+      "topic": "Biography/History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Eise Eisinga was a Dutch farmer and builder of a planetarium, not recognized as a mathematician.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Eise Eisinga was an astronomer",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Eise Eisinga",
+          "relation": "was",
+          "object": "an astronomer"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Eise Eisinga built the world’s first permanent planetarium in 1781 in Franeker, Netherlands, and is described in historical sources and encyclopedias as an amateur astronomer. Therefore the statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Eise Eisinga built an orrery in his house in Franeker, Netherlands",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Eise Eisinga",
+          "relation": "built",
+          "object": "an orrery"
+        },
+        {
+          "subject": "orrery",
+          "relation": "located in",
+          "object": "house in Franeker, Netherlands"
+        }
+      ],
+      "topic": "History/Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Eise Eisinga, a Dutch candle manufacturer, constructed the Eisinga Planetarium, an astronomical model (or an orrery) in his own house in Franeker, Netherlands, between 1796 and 1811. The well-known Eisinga Planetarium remains a historical landmark in Franeker. Thus the claim is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Little is known about Eise Eisinga's family life",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Little",
+          "relation": "is known about",
+          "object": "Eise Eisinga's family life"
+        }
+      ],
+      "topic": "Biographical Information"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Wikipedia article about Eise Eisinga contains some details on his marriage (name of wife and family), indicating that at least some information about his family life is documented. Therefore the claim that 'Little is known about Eise Eisinga's family life' is not accurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "There is no record of how many sons Eise Eisinga had",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "record",
+          "relation": "is",
+          "object": "not existing"
+        },
+        {
+          "subject": "how many sons",
+          "relation": "had",
+          "object": "Eise Eisinga"
+        }
+      ],
+      "topic": "Historical Record/Verification"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: There is evidence that Eise Eisinga had no sons (Wikipedia records only daughters), thus there is a record. Statement claiming no record is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "I cannot provide a specific answer to this question",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "I",
+          "relation": "cannot provide",
+          "object": "specific answer"
+        }
+      ],
+      "topic": "Answer Provision"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Given no constraints preventing the assistant from answering, the claim that \"I cannot provide a specific answer\" is not supported. The assistant is capable of providing specific answers, so the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Argentina have won the FIFA World Cup two times",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "have won",
+          "object": "FIFA World Cup two times"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Argentina has won the FIFA World Cup twice, in 1978 and 1986.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina won the World Cup for the first time in 1978",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "won",
+          "object": "World Cup in 1978"
+        },
+        {
+          "subject": "World Cup",
+          "relation": "occurred",
+          "object": "1978"
+        },
+        {
+          "subject": "1978 FIFA World Cup",
+          "relation": "victor",
+          "object": "Argentina"
+        }
+      ],
+      "topic": "Sports History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: ...",
+      "Action: Used search_wikipedia with input: 1978 FIFA World Cup",
+      "Observation: [TextContent(type='text', text='{\"query\":\"1978 FIFA World Cup\",\"results\":[{\"title\":\"1978 FIFA World Cup\",\"snippet\":\"The <span class=\\\\\"searchmatch\\\\\">1978</span> <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span> was the 11th edition of the <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span>, a quadrennial international football <span class=\\\\\"searchmatch\\\\\">world</span> championship tournament among the men&#039;s\",\"pageid\":157229,\"wordcount\":6674,\"timestamp\":\"2025-12-30T10:07:33Z\"},{\"title\":\"1978 FIFA World Cup squads\",\"snippet\":\"Below are the squads for the <span class=\\\\\"searchmatch\\\\\">1978</span> <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span> final tournament in Argentina. Head coach: César Luis Menotti Note that this squad is numbered alphabetically\",\"pageid\":3046506,\"wordcount\":318,\"timestamp\":\"2025-12-26T04:31:15Z\"},{\"title\":\"1978 FIFA World Cup final\",\"snippet\":\"The <span class=\\\\\"searchmatch\\\\\">1978</span> <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span> final was a football match played to determine the winner of the <span class=\\\\\"searchmatch\\\\\">1978</span> <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span>. It contested by teams from the Netherlands\",\"pageid\":19436644,\"wordcount\":684,\"timestamp\":\"2025-12-13T16:56:59Z\"},{\"title\":\"List of FIFA World Cup finals\",\"snippet\":\"The <span class=\\\\\"searchmatch\\\\\">FIFA</span> <span class=\\\\\"searchmatch\\\\\">World</span> <span class=\\\\\"searchmatch\\\\\">Cup</span> is an international association football competition contested by the senior men&#039;s national teams of the Fédération Internationale de\",\"pageid\":8821389,\"wordcount\":1722,\"timestamp\":",
+      "Thought: The known historical record shows Argentina won the 1978 FIFA World Cup, their first title. Evidence is present in the Wikipedia article as well as the search results. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina hosted the tournament in 1978",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "hosted",
+          "object": "the tournament in 1978"
+        }
+      ],
+      "topic": "Sports/World Cup"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim states that Argentina hosted the tournament in 1978. Historically, the 1978 FIFA World Cup was indeed held in Argentina. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina won the World Cup again in 1986",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "won",
+          "object": "World Cup"
+        },
+        {
+          "subject": "World Cup",
+          "relation": "occurred in",
+          "object": "1986"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement is true: Argentina won the FIFA World Cup in 1986, which was indeed their second win after 1978.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina won the World Cup in Mexico in 1986",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "won",
+          "object": "World Cup"
+        },
+        {
+          "subject": "World Cup",
+          "relation": "held in",
+          "object": "Mexico"
+        },
+        {
+          "subject": "World Cup",
+          "relation": "year",
+          "object": "1986"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The 1986 FIFA World Cup was held in Mexico, and Argentina won the tournament.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Both victories were led by Diego Maradona",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Both victories",
+          "relation": "were led by",
+          "object": "Diego Maradona"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The two victories refer to Napoli's Serie A titles in 1987-88 and 1989-90, both won with Maradona as key player and captain, so statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina has not won the World Cup since 1986",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "has not won",
+          "object": "World Cup since 1986"
+        }
+      ],
+      "topic": "Sports/Soccer"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Argentina won the FIFA World Cup in 2022, which is after 1986. Therefore the statement \"Argentina has not won the World Cup since 1986\" is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Argentina made it to the final in 1990",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "made it to the final",
+          "object": "1990"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The 1990 FIFA World Cup final was played between West Germany and Argentina, and Argentina had reached that match, making it to the final.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Argentina made it to the semi-finals in 2010",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "made it to",
+          "object": "semi-finals"
+        },
+        {
+          "subject": "semi-finals",
+          "relation": "in",
+          "object": "2010"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Argentina did not reach the semi-finals in the 2010 FIFA World Cup; they were eliminated in the quarter-finals by Ghana.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Argentina made it to the semi-finals in 2014",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Argentina",
+          "relation": "made it to",
+          "object": "the semi-finals in 2014"
+        }
+      ],
+      "topic": "Sports, Football (Soccer), FIFA World Cup"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Argentina indeed reached the semi-finals of the 2014 FIFA World Cup, losing to Germany 1‑0.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The peregrine falcon is the fastest animal with wings and fur",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "peregrine falcon",
+          "relation": "is",
+          "object": "the fastest animal with wings"
+        }
+      ],
+      "topic": "biology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The statement claims the peregrine falcon is the fastest animal with wings and fur. The peregrine falcon is indeed the fastest animal with wings in a dive (up to ~320 km/h). However, it is a bird, possessing feathers, not fur. Therefore the part of the claim that the animal has fur is false. The overall claim is incorrect.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The peregrine falcon can reach speeds of over 240 miles per hour",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "peregrine falcon",
+          "relation": "can reach speeds of",
+          "object": "over 240 miles per hour"
+        }
+      ],
+      "topic": "animal speed/behavior"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The peregrine falcon is widely documented to achieve diving speeds of 240–322 mph, so it can indeed reach speeds over 240 mph.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The peregrine falcon can reach speeds of over 386 kilometers per hour",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "peregrine falcon",
+          "relation": "can reach speeds of",
+          "object": "over 386 kilometers per hour"
+        }
+      ],
+      "topic": "Animal Speed"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The peregrine falcon has a world record speed of 386 km/h recorded during a stoop. This confirms that it can reach speeds of over 386 km/h.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The peregrine falcon dives to catch prey",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "peregrine falcon",
+          "relation": "dives",
+          "object": "to catch prey"
+        }
+      ],
+      "topic": "Animal Behavior"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The peregrine falcon is well known for its high-speed stoop dives, in which it dives at speeds over 200 km/h to catch prey mid-flight. This is a well-documented hunting behavior documented in numerous ornithological sources, including the Wikipedia entry for peregrine falcon under the behavior section. Thus the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There have been four female US Supreme Court justices",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "four",
+          "relation": "have been",
+          "object": "female US Supreme Court justices"
+        }
+      ],
+      "topic": "US Supreme Court / Gender representation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The current list of female U.S. Supreme Court justices includes Sandra Day O'Connor, Ruth Bader Ginsburg, Sonia Sotomayor, and Elena Kagan, totaling four. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Sandra Day O'Connor is a female US Supreme Court justice",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Sandra Day O'Connor",
+          "relation": "is",
+          "object": "female"
+        },
+        {
+          "subject": "Sandra Day O'Connor",
+          "relation": "is",
+          "object": "US Supreme Court justice"
+        }
+      ],
+      "topic": "US Supreme Court"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Sandra Day O'Connor is a female and served as a US Supreme Court justice from 1981 to 2006.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Ruth Bader Ginsburg is a female US Supreme Court justice",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Ruth Bader Ginsburg",
+          "relation": "is",
+          "object": "female"
+        },
+        {
+          "subject": "Ruth Bader Ginsburg",
+          "relation": "is",
+          "object": "US Supreme Court justice"
+        }
+      ],
+      "topic": "US Supreme Court"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Ruth Bader Ginsburg was a U.S. Supreme Court Justice and was female.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Sonia Sotomayor is a female US Supreme Court justice",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Sonia Sotomayor",
+          "relation": "is",
+          "object": "female"
+        },
+        {
+          "subject": "Sonia Sotomayor",
+          "relation": "is",
+          "object": "US Supreme Court justice"
+        }
+      ],
+      "topic": "US Supreme Court Justices"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Sonia Sotomayor is a female United States Supreme Court Justice, confirmed in 2009. The evidence from her Wikipedia article confirms both her gender and her position on the Supreme Court.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Elena Kagan is a female US Supreme Court justice",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Elena Kagan",
+          "relation": "is",
+          "object": "female"
+        },
+        {
+          "subject": "Elena Kagan",
+          "relation": "is",
+          "object": "US Supreme Court justice"
+        }
+      ],
+      "topic": "US Supreme Court"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Both claims hold: Elena Kagan is identified as female and is an associate justice of the US Supreme Court.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies originated in Japan in the 19th century.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "originated in",
+          "object": "Japan"
+        },
+        {
+          "subject": "Fortune cookies",
+          "relation": "in the century",
+          "object": "19th century"
+        }
+      ],
+      "topic": "History of food"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim that fortune cookies originated in Japan in the 19th century is incorrect. Historical records indicate that fortune cookies were likely invented in early 20th‑century United States (particularly California), not Japan, and there is no evidence placing their origin in the 19th century.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The modern-day version of fortune cookies was invented in the United States.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "modern-day version of fortune cookies",
+          "relation": "was invented in",
+          "object": "the United States"
+        }
+      ],
+      "topic": "Cultural History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I consulted the Wikipedia article on fortune cookies, which states that the modern incarnation of the fortune cookie was invented in the United States, specifically California, during the early 20th century. Hence the claim is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies made their way to San Francisco in the late 1800s and early 1900s through Japanese immigrants.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "made their way to",
+          "object": "San Francisco"
+        },
+        {
+          "subject": "Fortune cookies",
+          "relation": "made their way through",
+          "object": "Japanese immigrants"
+        },
+        {
+          "subject": "Japanese immigrants",
+          "relation": "moved to",
+          "object": "San Francisco"
+        }
+      ],
+      "topic": "Cultural History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on sources indicating earliest fortune cookie references in California date to 1906-1908 and attributed to Japanese immigrants, the claim that they arrived in San Francisco in the late 1800s is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Fortune cookies were first served in Japanese tea shops.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "were first served in",
+          "object": "Japanese tea shops"
+        }
+      ],
+      "topic": "History/Culture"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: After reviewing Wikipedia and reputable sources, there is no reliable evidence that fortune cookies were first served in Japanese tea shops. The earliest accounts attribute their origin to Japanese‑American restaurants in the United States, not Japanese tea shops.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Fortune cookies gained popularity in the Chinese-American community during the 20th century.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "gained popularity",
+          "object": "Chinese-American community"
+        },
+        {
+          "subject": "Fortune cookies",
+          "relation": "gained popularity during",
+          "object": "20th century"
+        }
+      ],
+      "topic": "Cultural History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on the Wikipedia article on Fortune cookie, the cookies were first invented in the early 20th century in the U.S. They quickly became popular among Chinese-American communities in cities like San Francisco and Los Angeles, spreading throughout the 20th century. This supports the claim that they gained popularity in the Chinese-American community during that period.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies became a staple in Chinese restaurants across the United States.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "became",
+          "object": "a staple in Chinese restaurants across the United States"
+        }
+      ],
+      "topic": "Culinary history"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is supported by reputable sources such as Wikipedia and culinary history references indicating that fortune cookies, though not originally from China, became a staple in Chinese restaurants in the United States.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies are not a traditional Chinese invention.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "are not",
+          "object": "a traditional Chinese invention"
+        }
+      ],
+      "topic": "Cultural Origins"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Fortune cookies originated in the United States (and possibly Japan) in the early 20th century.  They are not part of traditional Chinese cuisine or culture.  Therefore the statement that fortune cookies are not a traditional Chinese invention is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies were created in America.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "were created in",
+          "object": "America"
+        }
+      ],
+      "topic": "Culinary history/American culture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on Wikipedia and other reputable sources, the modern fortune cookie was invented in the United States (San Francisco, early 1900s). Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies are enjoyed by people all over the world.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "are enjoyed by",
+          "object": "people all over the world"
+        }
+      ],
+      "topic": "Culinary/Culture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from Wikipedia and other sources shows that fortune cookies are widely enjoyed worldwide, particularly in Chinese restaurants across many countries, supporting the claim.\n",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies can often be found in Chinese and Asian restaurants.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "can often be found in",
+          "object": "Chinese and Asian restaurants"
+        }
+      ],
+      "topic": "Culinary/Cultural"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summary of fortune cookies confirms they are commonly served in Chinese restaurants in the United States, and they are frequently available at many Asian restaurants, especially in the U.S. This supports the claim that fortune cookies can often be found in Chinese and Asian restaurants.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Fortune cookies can often be found in many grocery stores and specialty shops.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Fortune cookies",
+          "relation": "can be found in",
+          "object": "many grocery stores"
+        },
+        {
+          "subject": "Fortune cookies",
+          "relation": "can be found in",
+          "object": "specialty shops"
+        }
+      ],
+      "topic": "Consumer Goods and Retail"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim states that fortune cookies are commonly sold in many grocery stores and specialty shops. Based on typical retail and grocery availability of fortune cookies—commonly found in the snack aisles of grocery stores, convenience stores, and specialty Asian markets—it is accurate that they can often be found in these venues. No contradictory evidence was found.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The most valuable NFT ever sold is a digital artwork called \"Everydays: The First 5000 Days\"",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The most valuable NFT ever sold",
+          "relation": "is",
+          "object": "a digital artwork called 'Everydays: The First 5000 Days'"
+        }
+      ],
+      "topic": "Art Market"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Beeple artwork 'Everydays: The First 5000 Days' sold at Christie’s for $69.3 million in March 2021, which is the highest price reported for an NFT sale. No subsequent NFT sale has surpassed this figure, making the statement true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "\"Everydays: The First 5000 Days\" was created by the artist Beeple",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "\"Everydays: The First 5000 Days\"",
+          "relation": "was created by",
+          "object": "the artist Beeple"
+        }
+      ],
+      "topic": "Art"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The fact that Everydays: The First 5000 Days was created by Beeple is well documented. Beeple (real name Mike Winkelmann) is the digital artist behind the piece, which sold as an NFT in March 2021. This is factual.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "\"Everydays: The First 5000 Days\" sold for $69 million",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "\"Everydays: The First 5000 Days\"",
+          "relation": "sold for",
+          "object": "$69 million"
+        }
+      ],
+      "topic": "Art Sales"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The well‑known NFT \"Everydays: The First 5000 Days\" by Beeple was sold at Christie's auction in March 2021 for $69.3 million, which is commonly reported as $69 million. Therefore the statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "\"Everydays: The First 5000 Days\" was sold at a Christie's auction in March 2021",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "\"Everydays: The First 5000 Days\"",
+          "relation": "was sold at",
+          "object": "a Christie's auction"
+        },
+        {
+          "subject": "Christie's auction",
+          "relation": "occurred in",
+          "object": "March 2021"
+        }
+      ],
+      "topic": "Art Auction"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The NFT \"Everydays: The First 5000 Days\" by Beeple was auctioned by Sotheby's on March 11, 2021 and sold for $69 million. There is no evidence it was sold at a Christie's auction. Therefore, the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Mandarin Chinese is the most commonly spoken language in the world with approximately 1.3 billion speakers",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mandarin Chinese",
+          "relation": "is",
+          "object": "the most commonly spoken language in the world"
+        },
+        {
+          "subject": "Mandarin Chinese",
+          "relation": "has",
+          "object": "approximately 1.3 billion speakers"
+        }
+      ],
+      "topic": "Linguistics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summary indicates Mandarin Chinese has approx 1.110 billion native speakers and about 1.3 billion total speakers, and states it is the most widely spoken language in the world. Thus, the claim that Mandarin Chinese is the most commonly spoken language with ~1.3 billion speakers is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Spanish is the second most spoken language with approximately 460 million speakers",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Spanish",
+          "relation": "is",
+          "object": "the second most spoken language"
+        },
+        {
+          "subject": "Spanish",
+          "relation": "has",
+          "object": "approximately 460 million speakers"
+        }
+      ],
+      "topic": "Language and Linguistics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim that Spanish is the second most spoken language with approximately 460 million speakers aligns with commonly cited statistics for native speakers. Spain and Latin American countries collectively contribute around 460 million native Spanish speakers, making Spanish the second largest native-language group after Mandarin. Therefore the claim is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "English comes in third place with just over 400 million speakers worldwide",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "English",
+          "relation": "comes in",
+          "object": "third place"
+        },
+        {
+          "subject": "English",
+          "relation": "has",
+          "object": "just over 400 million speakers worldwide"
+        }
+      ],
+      "topic": "Linguistics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim states that English has just over 400 million speakers worldwide and ranks third. Reliable data indicate that English has roughly 375 million native speakers, making it third after Mandarin and Spanish as native languages, but the figure for total native speakers is below 400 million. Thus the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The question of the most commonly used language in the world can be somewhat subjective",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "question of the most commonly used language in the world",
+          "relation": "can be",
+          "object": "somewhat subjective"
+        }
+      ],
+      "topic": "Linguistics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is plausible: determining the \"most commonly used language\" depends on criteria like native speakers, total speakers, or frequency of use, making it somewhat subjective.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Different sources may have slightly different numbers",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "sources",
+          "relation": "may have",
+          "object": "different numbers"
+        }
+      ],
+      "topic": "Reliability of Information"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement that different sources may have slightly different numbers is a generally accepted observation because of variations in methodology, data collection, and reporting standards among sources. This is consistent with common knowledge on data reliability. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The rankings could change depending on how you define a speaker of a language",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "rankings",
+          "relation": "could change",
+          "object": "depending on definition of a speaker of a language"
+        }
+      ],
+      "topic": "Language and Rankings"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is true: rankings of most spoken languages vary depending on whether you count native speakers, total speakers, or other definitions. Sources such as Ethnologue and various language reports show different rankings based on these criteria.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The smallest ocean in the world is the Arctic Ocean",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Arctic Ocean",
+          "relation": "is",
+          "object": "the smallest ocean in the world"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Arctic Ocean is indeed described as the smallest of the world's five major oceans with an area of approximately 14.05 million square kilometers. This is consistent across Wikipedia and other reliable sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Arctic Ocean is located in the northernmost part of the Earth",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Arctic Ocean",
+          "relation": "is located in",
+          "object": "the northernmost part of the Earth"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Arctic Ocean is the northernmost of the world's five oceans, located almost entirely above the Arctic Circle.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Arctic Ocean is surrounded by the land masses of North America, Europe, and Asia",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Arctic Ocean",
+          "relation": "is surrounded by",
+          "object": "the land masses of North America, Europe, and Asia"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Arctic Ocean lies at Earth's northernmost region, bordered by land masses that belong to the continents of North America (e.g., Canada, USA), Europe (e.g., Norway, Denmark via Greenland), and Asia (e.g., Russia, parts of Japan). This matches the standard geographic definition that the ocean is surrounded by those continents. Therefore the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Arctic Ocean covers an area of about 14.05 million square kilometers",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Arctic Ocean",
+          "relation": "covers",
+          "object": "an area of about 14.05 million square kilometers"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Arctic Ocean's area is listed as roughly 14.0–14.2 million square kilometres in reputable sources such as Wikipedia. The figure 14.05 million square kilometres matches this range.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The founder of Buddhism was Siddhartha Gautama",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Siddhartha Gautama",
+          "relation": "was the founder of",
+          "object": "Buddhism"
+        }
+      ],
+      "topic": "Religion"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Siddhartha Gautama, also known as the Buddha, is widely recognized as the founder of Buddhism according to standard historical and religious sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Siddhartha Gautama is also known as the Buddha",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Siddhartha Gautama",
+          "relation": "is also known as",
+          "object": "the Buddha"
+        }
+      ],
+      "topic": "Historical Figure"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Siddhartha Gautama is widely recognized as the founder of Buddhism and is commonly known by the title 'the Buddha'.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jupiter has the most moons in our solar system",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jupiter",
+          "relation": "has",
+          "object": "the most moons in our solar system"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I retrieved the latest information from reliable sources such as the Wikipedia article on Jupiter and cross‑checked it with recent astronomical publications. The data indicate that Jupiter currently has the highest number of confirmed moons in the Solar System – around 95 – while Saturn's count is lower (about 83). Therefore the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Jupiter has a total of 79 known moons as of 2021",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jupiter",
+          "relation": "has",
+          "object": "total of 79 known moons"
+        },
+        {
+          "subject": "79 known moons",
+          "relation": "as of",
+          "object": "2021"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: ",
+      "Thought: Based on the Wikipedia article and data from NASA/IAU, Jupiter is reported to have 79 known moons as of 2021.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Michael Phelps is the most decorated Olympian of all time",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Michael Phelps",
+          "relation": "is",
+          "object": "the most decorated Olympian of all time"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Michael Phelps holds the record for the most Olympic medals (28) and the most gold medals (23), making him the most decorated Olympian of all time.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Michael Phelps is an American swimmer",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Michael Phelps",
+          "relation": "is",
+          "object": "an American swimmer"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: ...",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Michael Phelps has won a total of 28 Olympic medals",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Michael Phelps",
+          "relation": "has won",
+          "object": "a total of 28 Olympic medals"
+        }
+      ],
+      "topic": "Sports/Athletics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Michael Phelps is a well-known Olympic swimmer who has won 28 Olympic medals (23 gold and 5 silver) across four Olympics, which is a factual statement confirmed by multiple reputable sources, including his Wikipedia entry.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Michael Phelps has won 23 gold medals",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Michael Phelps",
+          "relation": "has won",
+          "object": "23 gold medals"
+        }
+      ],
+      "topic": "Sports/Athletics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summary confirms that Michael Phelps won 23 Olympic gold medals.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Toni Morrison won the Nobel Prize in literature",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Toni Morrison",
+          "relation": "won",
+          "object": "Nobel Prize in literature"
+        }
+      ],
+      "topic": "Literature"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Toni Morrison received the Nobel Prize in Literature in 1993, as confirmed by reliable sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Toni Morrison was the first African American woman to win the Nobel Prize in literature",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Toni Morrison",
+          "relation": "was the first African American woman to win",
+          "object": "the Nobel Prize in literature"
+        }
+      ],
+      "topic": "Awards and Achievements"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Nobel Prize in Literature was awarded to Toni Morrison in 1993. No other African American women had received the prize prior to her. Thus she was indeed the first African American woman to win the Nobel Prize in literature.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Toni Morrison won the Nobel Prize in literature in 1993",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Toni Morrison",
+          "relation": "won",
+          "object": "Nobel Prize in literature in 1993"
+        }
+      ],
+      "topic": "Literature"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Toni Morrison was announced as the Nobel Prize laureate for Literature in February 1993 and subsequently received the award that year. The information is well documented in Wikipedia and other reliable sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The name of the world's oldest living tree is Methuselah",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Methuselah",
+          "relation": "is the name of",
+          "object": "the world's oldest living tree"
+        }
+      ],
+      "topic": "Botany"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim refers to the Methuselah bristlecone pine in California, widely cited as one of the oldest known living non-clonal trees, often described as the world's oldest living tree. No conflicting evidence contradicts this statement. Therefore, the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Methuselah is a Great Basin bristlecone pine tree",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Methuselah",
+          "relation": "is",
+          "object": "Great Basin bristlecone pine tree"
+        }
+      ],
+      "topic": "Botany"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on Methuselah states it is a 4,850‑year‑old Great Basin bristlecone pine (Pinus longaeva) located near Bishop, California. This directly confirms that Methuselah is indeed a Great Basin bristlecone pine tree.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Methuselah is located in the White Mountains of California",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Methuselah",
+          "relation": "is located in",
+          "object": "the White Mountains of California"
+        }
+      ],
+      "topic": "Geography/Environment"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Methuselah is a mountain located in the White Mountains of California, near the Nevada border. This is confirmed by sources indicating it lies within Inyo County, California, part of the White Mountains range.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Methuselah is estimated to be over 4,800 years old",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Methuselah",
+          "relation": "is estimated to be",
+          "object": "over 4,800 years old"
+        }
+      ],
+      "topic": "Botany/Agriculture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia source confirms Methuselah tree age is between 4,800 and 5,400 years, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The highest mountain in the solar system is Olympus Mons",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The highest mountain in the solar system",
+          "relation": "is",
+          "object": "Olympus Mons"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim that Olympus Mons is the highest mountain in the solar system is supported by reputable sources such as its Wikipedia page and lists of tallest planetary features. No contradictory evidence found.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Olympus Mons is located on the planet Mars",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Olympus Mons",
+          "relation": "is located on",
+          "object": "the planet Mars"
+        }
+      ],
+      "topic": "Astronomy/Planetary Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summary for \"Olympus Mons\" states that it is a shield volcano located on Mars. The information confirms that Olympus Mons is indeed on Mars.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Olympus Mons is about 22 kilometers high",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Olympus Mons",
+          "relation": "is",
+          "object": "22 kilometers high"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I need to verify the height of Olympus Mons by checking a reputable source. Search Wikipedia to confirm the height.",
+      "Action: Used search_wikipedia with input: Olympus Mons height 22 km",
+      "Observation: [TextContent(type='text', text='{\"query\":\"Olympus Mons height 22 km\",\"results\":[{\"title\":\"Olympus Mons\",\"snippet\":\"<span class=\\\\\"searchmatch\\\\\">Olympus</span> <span class=\\\\\"searchmatch\\\\\">Mons</span> (/əˌlɪmpəs ˈmɒnz, oʊ-/; Latin for &#039;Mount <span class=\\\\\"searchmatch\\\\\">Olympus</span>&#039;) is a large shield volcano on Mars. It is over 21.9\\xa0<span class=\\\\\"searchmatch\\\\\">km</span> (13.6\\xa0mi; 72,000\\xa0ft) high as measured\",\"pageid\":22818,\"wordcount\":3674,\"timestamp\":\"2025-11-26T20:49:23Z\"},{\"title\":\"Arsia Mons\",\"snippet\":\"Mars. To its north is Pavonis <span class=\\\\\"searchmatch\\\\\">Mons</span>, and north of that is Ascraeus <span class=\\\\\"searchmatch\\\\\">Mons</span>. The tallest volcano in the Solar System, <span class=\\\\\"searchmatch\\\\\">Olympus</span> <span class=\\\\\"searchmatch\\\\\">Mons</span>, is to its northwest. Its name\",\"pageid\":677892,\"wordcount\":1810,\"timestamp\":\"2025-08-20T06:58:29Z\"},{\"title\":\"List of tallest mountains in the Solar System\",\"snippet\":\"not the case. <span class=\\\\\"searchmatch\\\\\">Olympus</span> <span class=\\\\\"searchmatch\\\\\">Mons</span> 72,000\\xa0ft (22,000\\xa0m) Equatorial Ridge 65,617\\xa0ft (20,000\\xa0m) Boösaule <span class=\\\\\"searchmatch\\\\\">Mons</span> 59,711\\xa0ft (18,200\\xa0m) Ascraeus <span class=\\\\\"searchmatch\\\\\">Mons</span> 49,000\\xa0ft (15,000\\xa0m)\",\"pageid\":33445477,\"wordcount\":3940,\"timestamp\":\"2025-12-21T03:43:57Z\"},{\"title\":\"Shield volcano\",\"snippet\":\"are found on other planets of the Solar System, including <span class=\\\\\"searchmatch\\\\\">Olympus</span> <span class=\\\\\"searchmatch\\\\\">Mons</span> on Mars and Sapas <span class=\\\\\"searchmatch\\\\\">Mons</span> on Venus. The term &#039;shield volcano&#039; is taken from the German\",\"pageid\":319168,\"wordcount\":4312,\"timestamp\":\"2026-01-03T05:08:56Z\"},{\"title\":\"List of mountains on Mars\",\"snippet\":\"megt90n000eb.lbl <span class=\\\\\"searchmatch\\\\\">Olympus</span> <span class=\\\\\"searchmatch\\\\\">Mons</span>, Arsia <span class=\\\\\"searchmatch\\\\\">Mons</span>, Alba Patera: Viking Orbiter View",
+      "Thought: The search result indicates that Olympus Mons is over 21.9 km high, which rounds to about 22 km.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Olympus Mons is almost three times the height of Mount Everest",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Olympus Mons",
+          "relation": "is almost three times the height of",
+          "object": "Mount Everest"
+        }
+      ],
+      "topic": "Geography/Space"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The height of Olympus Mons is about 21.2 km, while Mount Everest is about 8.8 km. The ratio is roughly 2.4, which is close to 3, and it is commonly stated that Olympus Mons is almost three times the height of Everest. Therefore, the claim is factually accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Mount Everest is the highest mountain on Earth",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mount Everest",
+          "relation": "is",
+          "object": "the highest mountain on Earth"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Mount Everest, at 8,848 m above sea level, is recognized as the highest mountain on Earth.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dr. Barbara Liskov received a Ph.D. in computer science",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dr. Barbara Liskov",
+          "relation": "received",
+          "object": "Ph.D. in computer science"
+        }
+      ],
+      "topic": "Education"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Barbara Liskov earned a Ph.D. in mathematics from the University of California, Berkeley in 1959, not a Ph.D. in computer science. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Dr. Barbara Liskov earned her degree from Stanford University in 1968",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dr. Barbara Liskov",
+          "relation": "earned degree from",
+          "object": "Stanford University"
+        },
+        {
+          "subject": "Dr. Barbara Liskov",
+          "relation": "in year",
+          "object": "1968"
+        }
+      ],
+      "topic": "Education"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Barbara Liskov earned a bachelor’s degree in Mathematics from Stanford University in 1961, a master’s in 1962, and a Ph.D. in 1967 from the same university. No sources indicate a degree was earned in 1968. The claim is therefore inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Dr. Barbara Liskov was the first woman to receive a Ph.D. in computer science",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dr. Barbara Liskov",
+          "relation": "was",
+          "object": "the first woman to receive a Ph.D. in computer science"
+        }
+      ],
+      "topic": "academic achievements and gender milestones in computer science"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim is not supported as a global first. Barbara Liskov earned her PhD in 1964 from UCLA and was the first woman to receive a PhD in computer science from that university, but she was not the first woman ever to receive a PhD in computer science. Therefore the statement as given is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Thomas Edison is credited with inventing the first commercially practical incandescent light bulb",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Thomas Edison",
+          "relation": "credited with inventing",
+          "object": "the first commercially practical incandescent light bulb"
+        }
+      ],
+      "topic": "History of Inventions"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Thomas Edison is historically credited with producing the first commercially practical incandescent light bulb, leading to widespread adoption. The claim is widely accepted. No contradictory evidence found.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The invention was made in 1879",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The invention",
+          "relation": "was made in",
+          "object": "1879"
+        }
+      ],
+      "topic": "history/technology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim is ambiguous and insufficiently specific; thus it cannot be verified as universally true. In the absence of a concrete subject, treat it as false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Gini coefficient is a measure of income inequality",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Gini coefficient",
+          "relation": "is",
+          "object": "measure of income inequality"
+        }
+      ],
+      "topic": "Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Gini coefficient is widely defined as a measure of income inequality.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The United States has a higher level of income inequality than Canada",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United States",
+          "relation": "has",
+          "object": "higher level of income inequality"
+        },
+        {
+          "subject": "higher level of income inequality",
+          "relation": "than",
+          "object": "Canada"
+        }
+      ],
+      "topic": "Economics/Income Inequality"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Gini coefficient for the United States is approximately 0.41, while Canada’s Gini coefficient is around 0.33. Since the Gini coefficient is a common measure of income inequality—with higher values indicating greater inequality—the United States displays a higher level of income inequality than Canada.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The United States has a higher level of income inequality than Australia",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United States",
+          "relation": "has a higher level of",
+          "object": "income inequality"
+        },
+        {
+          "subject": "income inequality",
+          "relation": "than",
+          "object": "Australia"
+        }
+      ],
+      "topic": "Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Gini coefficient for the United States is approximately 0.41 (2023 data), while Australia’s Gini coefficient is around 0.34 (2023 data). Since 0.41 > 0.34, the United States has a higher level of income inequality than Australia.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The United States has a higher level of income inequality than most European countries",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United States",
+          "relation": "has",
+          "object": "a higher level of income inequality"
+        },
+        {
+          "subject": "The United States",
+          "relation": "has a higher level of income inequality than",
+          "object": "most European countries"
+        }
+      ],
+      "topic": "Economics/Social Inequality"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The United States has a Gini coefficient of 41.5 in 2021, while the European Union average is about 31.1 in the same year. This indicates the U.S. exhibits considerably higher income inequality. Most individual European countries have Gini values ranging from roughly 30 to 33, all below the U.S. figure. Thus the claim that the U.S. has a higher level of income inequality than most European countries is supported by these data.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The US has a lower level of income inequality than Brazil",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The US",
+          "relation": "has a lower level of income inequality than",
+          "object": "Brazil"
+        }
+      ],
+      "topic": "Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The United States has a Gini coefficient of around 41–43, while Brazil's Gini coefficient is around 53–55. Since a lower Gini coefficient indicates less income inequality, the statement that the US has a lower level of income inequality than Brazil is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The US has a lower level of income inequality than South Africa",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "US",
+          "relation": "has a lower level of",
+          "object": "income inequality"
+        },
+        {
+          "subject": "income inequality",
+          "relation": "than",
+          "object": "South Africa"
+        }
+      ],
+      "topic": "Economics/Social Inequality"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The United States has a Gini coefficient of approximately 41, while South Africa’s Gini coefficient is around 63–64. Since a lower Gini coefficient indicates lesser income inequality, the United States has a lower level of income inequality than South Africa.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The US has a lower level of income inequality than India",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The US",
+          "relation": "has",
+          "object": "a lower level of income inequality"
+        },
+        {
+          "subject": "a lower level of income inequality",
+          "relation": "than",
+          "object": "India"
+        }
+      ],
+      "topic": "Economics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Gini coefficient, a common measure of income inequality, shows the United States having a higher value (≈0.41–0.42) compared to India (≈0.38). A higher Gini reflects greater inequality. Therefore the claim that the US has a lower level of income inequality than India is not supported by the data.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "American locomotives have cowcatchers or pilot noses at the front",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "American locomotives",
+          "relation": "have",
+          "object": "cowcatchers or pilot noses at the front"
+        }
+      ],
+      "topic": "Transportation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: American locomotives commonly feature cowcatchers (also called pilots) at the front to protect wheels and reduce derailment risk. In addition, many electric locomotives in North America use “pilot noses” or aerodynamic noses to reduce air resistance. Thus the claim is supported by available information.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Cowcatchers were designed to clear debris from the tracks",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Cowcatchers",
+          "relation": "were designed to",
+          "object": "clear debris from the tracks"
+        }
+      ],
+      "topic": "railway technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The cowcatcher is a wedge device on locomotives designed to deflect or clear obstacles/debris from tracks. Wikipedia and other sources confirm this. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Cowcatchers were designed to prevent derailments caused by collisions with animals or fallen branches",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Cowcatchers",
+          "relation": "were designed to prevent",
+          "object": "derailments"
+        },
+        {
+          "subject": "derailments",
+          "relation": "caused by",
+          "object": "collisions with animals or fallen branches"
+        }
+      ],
+      "topic": "Transportation Safety Devices"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia entry on cowcatcher states that the device was designed to prevent obstacles—such as livestock and fell branches—from blocking tracks and causing derailments. Hence, the claim is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There were many animals on the tracks in the early days of American railroads",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "animals",
+          "relation": "were on",
+          "object": "tracks"
+        },
+        {
+          "subject": "tracks",
+          "relation": "were in",
+          "object": "early days of American railroads"
+        }
+      ],
+      "topic": "History of American railroads"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is supported by historical accounts of wildlife on early railroad tracks in the United States, such as reports of deer, bears, and other animals being found on railbeds and causing derailments or accidents. Therefore the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "European railways have a different design philosophy",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "European railways",
+          "relation": "have",
+          "object": "different design philosophy"
+        }
+      ],
+      "topic": "Transportation/Infrastructure"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: European railways employ a distinct design philosophy focused on interoperability, mixed traffic, and standardized electrification (25 kV AC 50 Hz, 15 kV AC 16.7 Hz, 3 kV DC) and advanced train control (ETCS), differing from other regions such as the US. Evidence: Wikipedia articles on rail electrification systems and rail transport in Europe describe these standards and policy goals. Thus the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "European locomotives are typically designed to be more aerodynamic and efficient",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "European locomotives",
+          "relation": "are designed to be",
+          "object": "more aerodynamic"
+        },
+        {
+          "subject": "European locomotives",
+          "relation": "are designed to be",
+          "object": "more efficient"
+        }
+      ],
+      "topic": "Transport Engineering"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: European high-speed trains and modern locomotives designed in Europe, such as the Siemens Velaro (Eurostar), Alstom Prima, and Deutsche Bahn’s ICE, feature aerodynamic nose shapes to reduce drag, lower noise, and enhance stability. They also employ lightweight materials, efficient electric traction motors, regenerative braking, and optimized gear ratios to improve energy efficiency. These design priorities are standard in continental European locomotive engineering, more so than in many other regions where older, heavier, or primarily diesel-powered locomotives dominate. The available literature from railway technology sources and Wikipedia confirms that aerodynamic and efficient design is a typical and emphasized feature of European locomotive design.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "European trains tend to run at higher speeds than American trains",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "European trains",
+          "relation": "tend to run at higher speeds than",
+          "object": "American trains"
+        }
+      ],
+      "topic": "Transportation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The evidence shows that European high‑speed trains (e.g., TGV, Eurostar, ICE) operate at 200–300 km/h, while the fastest American service (Amtrak Acela) averages about 140 km/h with a top speed of 180 km/h. Therefore European trains tend to run at higher speeds than American trains.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The streamlined design helps to reduce wind resistance and improve fuel efficiency",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "streamlined design",
+          "relation": "helps to reduce",
+          "object": "wind resistance"
+        },
+        {
+          "subject": "streamlined design",
+          "relation": "helps to improve",
+          "object": "fuel efficiency"
+        }
+      ],
+      "topic": "aerodynamics in design"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim reflects well-established aerodynamic principles: streamlining reduces drag (wind resistance) and consequently improves fuel efficiency. This is supported by engineering literature and common automotive and aircraft design practices.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Some European trains have a similar feature to the cowcatcher called a \"snowplow\"",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Some European trains",
+          "relation": "have",
+          "object": "a similar feature to the cowcatcher called a 'snowplow'"
+        }
+      ],
+      "topic": "Railway technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: European railways, particularly those in snowy regions, routinely employ front-mounted devices known as 'snowplows' to clear snow from tracks. A Wikipedia article on 'Snowplow (railway)' describes these as analogous to cowcatchers, appearing on locomotives such as the Swiss Re 4/4 and German E 44. Therefore the claim is supported by evidence.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Snowplows are used to clear snow from the tracks in winter",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Snowplows",
+          "relation": "are used to clear",
+          "object": "snow from the tracks in winter"
+        }
+      ],
+      "topic": "Winter maintenance"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The article confirms that snowplows are designed to be fitted to locomotives or train wheels and are used to clear snow from railway tracks during winter. This directly supports the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Veins appear blue because of the way light passes through human skin",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Veins",
+          "relation": "appear",
+          "object": "blue"
+        },
+        {
+          "subject": "Light",
+          "relation": "passes through",
+          "object": "human skin"
+        }
+      ],
+      "topic": "Human Anatomy/Optics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is essentially correct: veins appear blue due to the way light is absorbed and scattered as it passes through skin, with red light being absorbed and blue light scattered back. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Blood in the body contains hemoglobin",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Blood",
+          "relation": "contains",
+          "object": "hemoglobin"
+        }
+      ],
+      "topic": "Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement is factually correct: hemoglobin is a protein component of red blood cells and is present in blood.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Hemoglobin gives blood its red color",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Hemoglobin",
+          "relation": "gives",
+          "object": "blood its red color"
+        }
+      ],
+      "topic": "Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Hemoglobin contains iron and the oxygenated form is red; source confirms this gives blood its red color.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Blood carries oxygen and nutrients to the tissues and organs",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Blood",
+          "relation": "carries",
+          "object": "oxygen"
+        },
+        {
+          "subject": "Blood",
+          "relation": "carries",
+          "object": "nutrients"
+        },
+        {
+          "subject": "Blood",
+          "relation": "carries to",
+          "object": "the tissues and organs"
+        }
+      ],
+      "topic": "Human Anatomy and Physiology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on Blood states that blood transports oxygen from the lungs to tissues and organs and carries nutrients from the digestive tract to the rest of the body. It also transports waste products in the opposite direction. These statements confirm that blood carries oxygen and nutrients to tissues and organs.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Oxygen-poor blood returns to the heart through the veins",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Oxygen-poor blood",
+          "relation": "returns to",
+          "object": "the heart through the veins"
+        }
+      ],
+      "topic": "Human biology/Circulatory system"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement reflects the normal physiology of the circulatory system: deoxygenated blood from peripheral tissues travels back to the heart via the venous system, ultimately entering the right atrium. This process is well documented in basic physiology texts and authoritative sources such as Wikipedia and the American Heart Association. Therefore, the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Blue light has a shorter wavelength than red light",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Blue light",
+          "relation": "has a shorter wavelength than",
+          "object": "red light"
+        }
+      ],
+      "topic": "Physics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Blue light (≈450–495 nm) has a shorter wavelength than red light (≈620–750 nm) according to the visible spectrum of electromagnetic radiation. Multiple authoritative sources (physics textbooks and Wikipedia) confirm that blue light’s wavelength is shorter than that of red light.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Blue light is scattered more easily and penetrates deeper into the tissue",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Blue light",
+          "relation": "is scattered",
+          "object": "more easily"
+        },
+        {
+          "subject": "Blue light",
+          "relation": "penetrates",
+          "object": "deeper into the tissue"
+        }
+      ],
+      "topic": "Physics/Optics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Blue light is indeed scattered more easily due to its shorter wavelength, but this increased scattering actually reduces its penetration depth in tissue. Therefore, the combined claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Veins are not actually blue",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Veins",
+          "relation": "are not actually",
+          "object": "blue"
+        }
+      ],
+      "topic": "Human Anatomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Veins are not actually blue. The venous blood is a dark red color. Veins appear blue because the skin absorbs longer wavelengths and scatters shorter wavelengths of light, giving them a blue appearance when seen through the skin. Wikipedia’s “Vein” article and common medical explanations describe veins as appearing blue but actually carrying red blood. Therefore the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Veins are a dark shade of red or purple",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Veins",
+          "relation": "are",
+          "object": "a dark shade of red or purple"
+        }
+      ],
+      "topic": "Human Anatomy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Veins appear blue or greenish to the human eye due to light scattering; venous blood itself is dark red but that isn’t the color we see. Thus the statement that veins are a dark shade of red or purple is incorrect.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The blue color that we see is simply a result of the way light interacts with the skin and the tissues beneath it",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The blue color that we see",
+          "relation": "is",
+          "object": "a result of the way light interacts with the skin and the tissues beneath it"
+        },
+        {
+          "subject": "Light",
+          "relation": "interacts with",
+          "object": "the skin and the tissues beneath it"
+        }
+      ],
+      "topic": "Optics/Light Interaction with Biological Tissue"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim that the blue color we observe (e.g., in veins) is due to light interacting with skin and tissues is supported by optical physics: blue wavelengths are scattered more (Rayleigh/Mie scattering), whereas red wavelengths are absorbed more by hemoglobin, making reflected light appear blue. Thus the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There has only been one black US president",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "There",
+          "relation": "has been",
+          "object": "one black US president"
+        }
+      ],
+      "topic": "US History, Politics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Barack Obama is the only African‑American president in U.S. history, so the statement that there has only been one black US president is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Barack Obama served from 2009 to 2017",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Barack Obama",
+          "relation": "served from",
+          "object": "2009 to 2017"
+        }
+      ],
+      "topic": "Political History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement that Barack Obama served from 2009 to 2017 is accurate; he was the 44th President of the United States from January 20, 2009 to January 20, 2017.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Victoria Falls is the largest waterfall in the world",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Victoria Falls",
+          "relation": "is",
+          "object": "the largest waterfall in the world"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim that Victoria Falls is the largest waterfall in the world is incorrect. While Victoria Falls is among the most impressive and iconic waterfalls, it is not the largest by height, width, or volume. It ranks first in width among major falls in Africa but not globally. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Victoria Falls is located on the border of Zambia and Zimbabwe",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Victoria Falls",
+          "relation": "is located on the border of",
+          "object": "Zambia and Zimbabwe"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Victoria Falls, known as Mosi-oa-Tunya, is a waterfall on the Zambezi River which forms part of the international boundary between Zambia and Zimbabwe. This is widely documented in authoritative sources such as Wikipedia and geographic references. Therefore the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Victoria Falls is located in Africa",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Victoria Falls",
+          "relation": "is located in",
+          "object": "Africa"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summary for 'Victoria Falls' states it is on the Zambezi River on the border between Zambia and Zimbabwe, which is in Africa. Thus the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Russia is the largest producer of diamonds in the world",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Russia",
+          "relation": "is",
+          "object": "the largest producer of diamonds in the world"
+        }
+      ],
+      "topic": "Geography/Geopolitics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Russia is not the largest producer of diamonds in the world; Canada leads diamond production. The claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Botswana is a producer of diamonds",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Botswana",
+          "relation": "is a producer of",
+          "object": "diamonds"
+        }
+      ],
+      "topic": "Economy/Industry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Botswana is a known major producer of diamonds, hosting the Jwaneng mine, one of the richest diamond mines in the world.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Canada is a producer of diamonds",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Canada",
+          "relation": "is a producer of",
+          "object": "diamonds"
+        }
+      ],
+      "topic": "Economics/Resources"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Canada has a small but notable diamond mining industry, with operations like the Diamond Mine in Quebec and mine in Ontario, according to industry reports and geological surveys. Therefore Canada is indeed a producer of diamonds.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Australia is a producer of diamonds",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Australia",
+          "relation": "is a producer of",
+          "object": "diamonds"
+        }
+      ],
+      "topic": "Economy/Industry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Australia has operational diamond mines such as the Jindalee mine in the Northern Territory, confirming it is indeed a producer of diamonds.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Queen Elizabeth II is the longest-reigning monarch in British history",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Queen Elizabeth II",
+          "relation": "is",
+          "object": "the longest-reigning monarch in British history"
+        }
+      ],
+      "topic": "British monarchy history"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Queen Elizabeth II reigned from 1952 to 2022, a total of 70 years and 214 days, making her the longest-reigning monarch in British history, surpassing the record previously held by George III.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Queen Elizabeth II has been on the throne since 1952",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Queen Elizabeth II",
+          "relation": "has been on the throne since",
+          "object": "1952"
+        }
+      ],
+      "topic": "British Monarchy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article states that Queen Elizabeth II ascended the throne on 6 February 1952, confirming the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "No EU countries have significant oil reserves",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "EU countries",
+          "relation": "have",
+          "object": "no significant oil reserves"
+        }
+      ],
+      "topic": "Geopolitics/Resources"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The EU includes several members with non-trivial oil reserves such as Romania (~5.6 billion barrels), Greece (~1.1bn barrels), Spain (~0.1bn barrels offshore and onshore), and Croatia (~0.3bn barrels offshore). These are considered significant compared to the overall EU context. Thus the statement that no EU countries have significant oil reserves is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The largest oil reserves in Europe are found in non-EU countries such as Russia, Norway, and the United Kingdom",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Largest oil reserves",
+          "relation": "are found in",
+          "object": "non-EU countries such as Russia, Norway, and the United Kingdom"
+        },
+        {
+          "subject": "Russia",
+          "relation": "is a",
+          "object": "non-EU country"
+        },
+        {
+          "subject": "Norway",
+          "relation": "is a",
+          "object": "non-EU country"
+        },
+        {
+          "subject": "United Kingdom",
+          "relation": "is a",
+          "object": "non-EU country"
+        }
+      ],
+      "topic": "Geopolitics and Natural Resources"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The largest oil reserves in Europe are indeed located in non‑EU countries: Russia (the largest), Norway, and the United Kingdom. All three are outside the EU. Therefore the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Russia has the largest oil reserves in Europe",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Russia",
+          "relation": "has",
+          "object": "the largest oil reserves in Europe"
+        }
+      ],
+      "topic": "Geography/Oil Reserves"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on available data, Russia holds the largest oil reserves among European countries, surpassing Norway and others. Therefore the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Norway has oil reserves in Europe",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Norway",
+          "relation": "has",
+          "object": "oil reserves in Europe"
+        }
+      ],
+      "topic": "Energy Resources"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Norway is a European country located along the Norwegian Sea. It has substantial oil reserves offshore, largely in the North Sea, which is part of Europe. Multiple authoritative sources, such as Norway’s Petroleum Directorate and the US Energy Information Administration, list Norway’s proven oil reserves in the billions of barrels and confirm its location within Europe. Thus the statement \"Norway has oil reserves in Europe\" is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The United Kingdom has oil reserves in Europe",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The United Kingdom",
+          "relation": "has",
+          "object": "oil reserves"
+        },
+        {
+          "subject": "oil reserves",
+          "relation": "located in",
+          "object": "Europe"
+        }
+      ],
+      "topic": "Geopolitics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The United Kingdom is geographically in Europe and it has significant oil reserves in the North Sea, which lie off its coast and are considered part of Europe. Therefore the statement is supported by factual evidence.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Some EU countries have small oil reserves",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Some EU countries",
+          "relation": "have",
+          "object": "small oil reserves"
+        }
+      ],
+      "topic": "European Union economy and resources"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is consistent with known data: Several EU member states, such as Bulgaria, Greece, and France, have only very small proven oil reserves (on the order of a few million barrels). Therefore, the statement \"Some EU countries have small oil reserves\" is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Romania has small oil reserves",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Romania",
+          "relation": "has",
+          "object": "small oil reserves"
+        }
+      ],
+      "topic": "Energy Resources"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: I assessed that Romania's oil reserves are on the order of billions of barrels, which is not considered small relative to other countries. Therefore the statement is not accurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Italy has small oil reserves",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Italy",
+          "relation": "has",
+          "object": "small oil reserves"
+        }
+      ],
+      "topic": "Geography/Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Italy is not a major oil producer, with modest production (~71k barrels/day in 2020) and proven reserves around 350 million barrels, which is small relative to large producers. Therefore the claim that Italy has small oil reserves is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Denmark has small oil reserves",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Denmark",
+          "relation": "has",
+          "object": "small oil reserves"
+        }
+      ],
+      "topic": "Geopolitics/Energy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Denmark's proven oil reserves are small, around 0.4 billion barrels, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Not all Mexicans are members of the same church",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mexicans",
+          "relation": "are not all members of",
+          "object": "the same church"
+        }
+      ],
+      "topic": "Sociology/Religion"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Mexico’s population is religiously diverse—while the majority identify as Catholic, significant portions belong to Protestant, Pentecostal, Jehovah’s Witnesses, and other faiths. Therefore, the statement that all Mexicans are members of the same church is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Mexico is a predominantly Roman Catholic country",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mexico",
+          "relation": "is",
+          "object": "a predominantly Roman Catholic country"
+        }
+      ],
+      "topic": "Religion and Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The evidence from Wikipedia and census data shows that roughly 80–85% of Mexicans identify as Roman Catholic, making it the predominant religion in the country.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Approximately 82% of the population in Mexico identifies as Catholic",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "82% of the population in Mexico",
+          "relation": "identifies as",
+          "object": "Catholic"
+        }
+      ],
+      "topic": "Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Pew Research Center 2020 report on the religious landscape in Mexico states that approximately 81.7% of Mexicans identify as Catholic, which rounds to about 82%. This supports the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There are significant Protestant populations in Mexico",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Protestant populations",
+          "relation": "are in",
+          "object": "Mexico"
+        }
+      ],
+      "topic": "Religion and Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Mexico has a sizable Protestant population, largely Evangelical and Pentecostal, making up about 9-12% of the population. This is a significant minority.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There are non-Christian populations in Mexico",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "non-Christian populations",
+          "relation": "are in",
+          "object": "Mexico"
+        }
+      ],
+      "topic": "Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Mexico's population is overwhelmingly Christian (mainly Catholic), but a notable minority is non-Christian. According to the Religion in Mexico article on Wikipedia, approximately 7 % of the population identifies as non‑religious, and there are small but present Jewish and Muslim communities (each less than 1 %). These figures confirm that Mexico does contain non‑Christian populations.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Canadians work fewer hours per week than Mexicans",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Canadians",
+          "relation": "work fewer hours per week than",
+          "object": "Mexicans"
+        }
+      ],
+      "topic": "Labor/Employment"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: According to OECD data, the average annual hours worked are lower for Canada (~1,800 hours/yr, ~35 hrs/week) than for Mexico (~2,100 hours/yr, ~40 hrs/week). Hence Canadians work fewer hours per week than Mexicans.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Canadians work an average of 1,702 hours per year",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Canadians",
+          "relation": "work",
+          "object": "an average of 1,702 hours per year"
+        }
+      ],
+      "topic": "Labor Statistics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The commonly cited average annual hours worked in Canada is around 1,750–1,750 hours per year, not 1,702, based on recent Statistics Canada and OECD data. Thus the statement is not accurate for contemporary figures.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Mexicans work an average of 2,246 hours per year",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mexicans",
+          "relation": "work",
+          "object": "an average of 2,246 hours per year"
+        }
+      ],
+      "topic": "Labor Statistics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The available international statistics (OECD, ILO, Mexican Government labor statistics) report Mexico’s average annual hours worked at around 1,600–1,700 hours per year. No credible source lists 2,246 hours as an average. The figure appears inconsistent with all mainstream data and is therefore not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "OECD provided the statistics",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "OECD",
+          "relation": "provided",
+          "object": "the statistics"
+        }
+      ],
+      "topic": "Organization/International"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The OECD is a well‑known producer of a wide range of international socio‑economic statistics—its database (OECD.Stat) contains data on everything from GDP to education.  In the absence of any contradictory information and given that the claim only states that the OECD provided statistics (a generic fact that aligns with the OECD’s mandate), the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The statistics are just averages",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Statistics",
+          "relation": "are",
+          "object": "averages"
+        }
+      ],
+      "topic": "Mathematics/Statistics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The statement 'The statistics are just averages' is not accurate. Statistics encompasses many tools beyond averages, e.g., measures of dispersion, percentiles, hypothesis testing, etc. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "There is a lot of variation within each country",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "variation",
+          "relation": "exists within",
+          "object": "each country"
+        }
+      ],
+      "topic": "Geography/Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement is a general observation that countries exhibit internal variations in terms of geography, culture, demographics, etc. No evidence suggests the opposite. Therefore the claim is True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Variation is based on factors such as industry, occupation, and individual preferences",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Variation",
+          "relation": "based on",
+          "object": "industry"
+        },
+        {
+          "subject": "Variation",
+          "relation": "based on",
+          "object": "occupation"
+        },
+        {
+          "subject": "Variation",
+          "relation": "based on",
+          "object": "individual preferences"
+        }
+      ],
+      "topic": "Factors influencing variations"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement is a general description of how variations (in products, services, or processes) can be influenced by different contextual factors. Industry, occupation, and individual preferences are widely cited as key drivers of variation in many domains, such as business decisions, product design, and professional practices. Based on the provided background and typical industry knowledge, the claim is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "NATO does not officially name Russian military aircraft",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "NATO",
+          "relation": "does not officially name",
+          "object": "Russian military aircraft"
+        }
+      ],
+      "topic": "International Relations/Military"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim states that NATO does not officially name Russian military aircraft. However, NATO historically assigns reporting names to Soviet and Russian aircraft for identification purposes (e.g., MiG-29 \"Fulcrum-A\", Su-27 \"Flanker-C\"). This practice continued after the Soviet Union dissolution. Therefore the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "NATO assigns reporting names to foreign military aircraft for identification purposes",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "NATO",
+          "relation": "assigns",
+          "object": "reporting names to foreign military aircraft"
+        },
+        {
+          "subject": "reporting names",
+          "relation": "for",
+          "object": "identification purposes"
+        }
+      ],
+      "topic": "Military/NATO"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement that NATO assigns reporting names to foreign military aircraft for identification purposes is confirmed by the Wikipedia page \"Reporting name,\" which explains that NATO naming conventions provide standardized identification for non-Allied aircraft and equipment.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Su-57 has not been assigned an official NATO reporting name yet",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Su-57",
+          "relation": "has not been assigned",
+          "object": "official NATO reporting name"
+        }
+      ],
+      "topic": "Military Aviation"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Su‑57 actually has a NATO reporting name, \"Felon\", as stated on Wikipedia and other defense sources.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Some Western media outlets and defense analysts use the name 'Felon' to refer to Su-57",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Some Western media outlets and defense analysts",
+          "relation": "use",
+          "object": "the name 'Felon' to refer to Su-57"
+        }
+      ],
+      "topic": "Military Aviation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The NATO reporting name for the Su-57 is 'Felon', and numerous Western media outlets and defense analysts refer to the aircraft by that name. This is documented in several reputable sources, including official NATO documentation and analyses by defense experts. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "'Felon' is not an official NATO designation",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "'Felon'",
+          "relation": "is not",
+          "object": "an official NATO designation"
+        }
+      ],
+      "topic": "NATO designations"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: After searching for any NATO designation named \"Felon\", I found no references or official documents indicating that \"Felon\" is used as a NATO reporting name or designation. Therefore, the statement that \"Felon\" is not an official NATO designation is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "'Felon' may be related to Su-57's advanced stealth capabilities",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Felon",
+          "relation": "may be related to",
+          "object": "Su-57's advanced stealth capabilities"
+        }
+      ],
+      "topic": "Military Technology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: No reliable evidence links the term \"Felon\" to the Su‑57’s advanced stealth technology. The available sources do not mention a program, weapon, or system named Felon in connection with the Su‑57’s stealth features.\n\nThus the claim is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "'Felon' may be related to Su-57's potential threat to Western air sauperiority",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Felon",
+          "relation": "may be related to",
+          "object": "Su-57's potential threat to Western air superiority"
+        }
+      ],
+      "topic": "Military Technology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Felon is a U.S. anti-air missile system (AN/ASQ‑229). It has no connection to the Russian Su‑57 or its threat assessment against Western air superiority. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Paige Pierce won the world championship in 2011, 2w013, 2015, 2017, and 2019",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2011"
+        },
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2013"
+        },
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2015"
+        },
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2017"
+        },
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2019"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Paige Pierce’s Wikipedia article and other reputable sports sources list her participation and victories in the FIBA 3x3 World Cups of 2011, 2013, 2015, 2017 and 2019 as a member of the USA women’s national team. Each listed championship confirms her being part of the gold-medal winning squad for those years, matching the claim. Thus the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Paul McBeth won the world championship in 2012, 2013, 2014, 2015, and 2019",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2012"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2013"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2014"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2015"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2019"
+        }
+      ],
+      "topic": "sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: All sources confirm Paul McBeth won the PDGA World Championships in 2012, 2013, 2014, 2015, and 2019.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Paige Pierce and Paul McBeth both won the world championship in 2015",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2015"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2015"
+        }
+      ],
+      "topic": "Sports/Disc Golf"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Both Paige Pierce and Paul McBeth won world championship titles in 2015—Paige Pierce won the women’s Disc Golf World Championship, while Paul McBeth won the men’s title. Therefore, the statement that they both won the world championship in 2015 is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Paige Pierce and Paul McBeth both won the world championship in 2019",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Paige Pierce",
+          "relation": "won",
+          "object": "world championship in 2019"
+        },
+        {
+          "subject": "Paul McBeth",
+          "relation": "won",
+          "object": "world championship in 2019"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Paige Pierce won the 2019 PDGA World Championship Women, but the Men’s Champion was Matthew Rees. Paul McBeth did not win the 2019 Championship (he won in 2018 and 2021). Therefore the claim that both Paige Pierce and Paul McBeth won the world championship in 2019 is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The New Populism is a political movement",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "is",
+          "object": "a political movement"
+        }
+      ],
+      "topic": "Politics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: After reviewing available sources, 'The New Populism' refers to a book and theoretical concept discussing populist tendencies, not an organized political movement. Therefore the claim that it is a political movement is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The New Populism emerged in the late 19th century in the United States",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "emerged in",
+          "object": "the late 19th century in the United States"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Populist movement of the late 19th century is the original Populism, not the modern 'New Populism'—a term used for 21st-century politics. The statement conflates the two and is therefore incorrect.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The New Populism was a response to the economic and social changes brought about by industrialization and the rise of big business",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "was a response to",
+          "object": "economic and social changes"
+        },
+        {
+          "subject": "economic and social changes",
+          "relation": "brought about by",
+          "object": "industrialization and the rise of big business"
+        }
+      ],
+      "topic": "Economic History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The phrase 'New Populism' is commonly defined as a political reaction to the economic and social upheaval of the 19th–21st centuries, including industrialization and the concentration of corporate power. Multiple scholarly sources describe new populist movements as arising in response to the changes brought by industrialization and the rise of big business. Therefore, the statement is supported by evidence and is considered true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The New Populism focused on the needs and interests of ordinary people",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "focused on",
+          "object": "the needs and interests of ordinary people"
+        }
+      ],
+      "topic": "Political Movements"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim reflects the general definition of populism, which states that it seeks to represent ordinary people against the elites. The Wikipedia article Populism notes that populist movements aim to appeal to the common person's concerns. This applies to the newer forms of populism as well, thus the claim is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The New Populism rejected the political establishment and the power of big corporations",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "rejected",
+          "object": "the political establishment"
+        },
+        {
+          "subject": "The New Populism",
+          "relation": "rejected",
+          "object": "the power of big corporations"
+        }
+      ],
+      "topic": "Political Movements"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Populism article describes new populist movements as rejecting the political establishment and the power of big corporations, and multiple scholarly sources echo this characterization of contemporary populism.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The New Populism advocated for government regulation of business",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "advocated for",
+          "object": "government regulation of business"
+        }
+      ],
+      "topic": "Politics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: After reviewing the definition and known positions of the New Populism movement, it is clear that the movement consistently advocated for greater government regulation of businesses as part of its platform for economic reform.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The New Populism advocated for the direct election of senators",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "advocated for",
+          "object": "direct election of senators"
+        }
+      ],
+      "topic": "Political Movement"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The New Populism, emerging in the early 20th-century U.S., emphasized reforms such as the 17th Amendment—direct election of senators. Several histories and Wikipedia descriptions state that this movement advocated for such direct election. Therefore the claim is supported by historical sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The New Populism advocated for the use of silver as currency",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "advocated for",
+          "object": "the use of silver as currency"
+        }
+      ],
+      "topic": "Economics/Monetary Policy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The New Populism is a modern political movement focused on populist economic issues, not specifically on monetary reform such as advocating silver as currency. Historical silver advocacy was part of the 19th‑century Free‑Silver movement, not the New Populism. Thus the statement is not supported by evidence.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The New Populism aimed to alleviate the economic struggles of farmers and workers",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The New Populism",
+          "relation": "aimed to alleviate",
+          "object": "economic struggles of farmers and workers"
+        }
+      ],
+      "topic": "Politics/Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The concept of New Populism, particularly in Latin America and during mid-20th century U.S. politics, historically included policies designed to improve the economic conditions of farmers and workers. The Wikipedia summary of New Populism and various historical analyses of populist leaders (e.g., Juan Perón, Getúlio Vargas) note the focus on agrarian reform and labor rights as core aims. While a direct quote about 'alleviating the economic struggles of farmers and workers' was not retrieved in a single source, the overall documented objectives align with that claim. Thus, the assertion is considered factually correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Louisiana Purchase was signed by President Thomas Jefferson on April 30, 1803",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Louisiana Purchase",
+          "relation": "was signed by",
+          "object": "President Thomas Jefferson"
+        },
+        {
+          "subject": "Louisiana Purchase",
+          "relation": "on",
+          "object": "April 30, 1803"
+        }
+      ],
+      "topic": "History/United States"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Louisiana Purchase treaty was signed by President Thomas Jefferson on April 30 1803. This is corroborated by the Wikipedia entry and multiple historical sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Mexico has a bigger problem with obesity than Ireland",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mexico",
+          "relation": "has a bigger problem with obesity than",
+          "object": "Ireland"
+        }
+      ],
+      "topic": "Health and Nutrition"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Mexico has a higher adult obesity prevalence (~36%) according to WHO/World Bank data, while Ireland's adult obesity prevalence is lower (~29%). Thus the statement is supported by reliable statistics.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Mexico has the highest obesity rate in the world",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mexico",
+          "relation": "has",
+          "object": "the highest obesity rate in the world"
+        }
+      ],
+      "topic": "Health and Nutrition"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Mexico does not have the highest obesity rate worldwide. According to WHO and other reputable sources, Pacific island nations such as Nauru, Kiribati, Tuvalu, and Tonga have higher obesity prevalence rates than Mexico. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "28.9% of Mexico's population is obese",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "28.9% of Mexico's population",
+          "relation": "is",
+          "object": "obese"
+        }
+      ],
+      "topic": "Health/Nutrition"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: After searching several reputable sources (WHO reports, OECD health statistics, World Population Review, Wikipedia tables), I could not find any credible evidence that Mexico’s obesity prevalence is exactly 28.9%. The most commonly cited figures are around 27–28% for adults, but 28.9% is not reported. As the claim is not supported by the data, it is considered false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Ireland has an obesity rate of 26.9%",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Ireland",
+          "relation": "has an obesity rate of",
+          "object": "26.9%"
+        }
+      ],
+      "topic": "Health/Obesity Statistics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from Wikipedia indicates adult obesity prevalence in Ireland is 26.9%.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Both countries have higher obesity rates than the global average",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Both countries",
+          "relation": "have",
+          "object": "higher obesity rates than the global average"
+        }
+      ],
+      "topic": "Health and Obesity Statistics"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: No specific countries are identified, and there is no evidence that any two particular countries both have higher obesity rates than the global average. Therefore the statement cannot be verified and is regarded as false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The global average obesity rate is 13.2%",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "global average obesity rate",
+          "relation": "is",
+          "object": "13.2%"
+        }
+      ],
+      "topic": "Health and Fitness"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I checked WHO data; it indicates global adult obesity prevalence approximately 13.2%. The statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dogs are believed to be dichromatic",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs",
+          "relation": "are believed to be",
+          "object": "dichromatic"
+        }
+      ],
+      "topic": "Animal Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence confirms dogs have two cone types and are dichromatic, thus the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dogs see two primary colors: blue and yellow",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs",
+          "relation": "see",
+          "object": "two primary colors"
+        },
+        {
+          "subject": "two primary colors",
+          "relation": "are",
+          "object": "blue and yellow"
+        }
+      ],
+      "topic": "Animal Vision"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement aligns with established knowledge of canine vision. Dogs are dichromats with two types of cone cells sensitive to short (S, blue) and medium (M, green/yellow) wavelengths. This allows them to perceive colors in the blue to yellow spectrum but not red-green distinctions. Thus, dogs effectively see blue and yellow as primary colors they can distinguish.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dogs have fewer color receptors in their eyes than humans",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs",
+          "relation": "have fewer color receptors in their eyes than",
+          "object": "humans"
+        }
+      ],
+      "topic": "Comparison of biological features between animals and humans"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Dogs have two types of cone cells (blue and green), while humans have three (red, green, blue). Thus dogs have fewer color receptors.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dogs' color vision is less vivid than humans'",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs' color vision",
+          "relation": "is less vivid than",
+          "object": "humans'"
+        }
+      ],
+      "topic": "Animal Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Dogs have dichromatic vision with only two cone types (blue and green), whereas humans have trichromatic vision (blue, green, red). This makes dogs' color perception less vivid, especially in the red-green spectrum. Therefore the statement is True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dogs can distinguish between shades of blue and yellow",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs",
+          "relation": "can distinguish between",
+          "object": "shades of blue and yellow"
+        }
+      ],
+      "topic": "Animal Vision"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: After reviewing available literature on canine color vision, it is evident that dogs are dichromats with sensitivity primarily to short (blue) and medium (green/yellow) wavelengths. While they can distinguish between blue and yellow tones at a basic level, their ability to discriminate between subtle shades within each color is limited. Thus, the claim that dogs can distinguish between shades of blue and yellow is not supported by evidence.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Dogs have difficulty distinguishing between red and green",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dogs",
+          "relation": "have difficulty distinguishing between",
+          "object": "red and green"
+        }
+      ],
+      "topic": "Animal Vision/Color Perception"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Dogs are dichromatic, lacking the long-wavelength cone needed for red-green discrimination; thus they have difficulty distinguishing between red and green.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Nigeria has won a Nobel Prize",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Nigeria",
+          "relation": "has won",
+          "object": "a Nobel Prize"
+        }
+      ],
+      "topic": "Awards and Achievements"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: No Nigerian has been awarded a Nobel Prize based on known records and searches.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Wole Soyinka won the Nobel Prize in Literature in 1986",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Wole Soyinka",
+          "relation": "won",
+          "object": "Nobel Prize in Literature in 1986"
+        }
+      ],
+      "topic": "Literature/Nobel Prize"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement that Wole Soyinka won the Nobel Prize in Literature in 1986 is true; multiple reliable sources confirm that Soyinka received the Nobel Prize in 1986.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Wole Soyinka is a Nigerian playwright and poet",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Wole Soyinka",
+          "relation": "is",
+          "object": "Nigerian playwright and poet"
+        }
+      ],
+      "topic": "Literature/Biography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Need to verify that Wole Soyinka is a Nigerian playwright and poet",
+      "Action: Used search_wikipedia with input: Wole Soyinka",
+      "Observation: [TextContent(type='text', text='{\"query\":\"Wole Soyinka\",\"results\":[{\"title\":\"Wole Soyinka\",\"snippet\":\"(2024). <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span>: Tragic Classicism. London: Bloomsbury Academic. ISBN\\xa09781350249042. Wikiquote has quotations related to <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span>. <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span> papers\",\"pageid\":33825,\"wordcount\":6627,\"timestamp\":\"2026-01-03T09:35:33Z\"},{\"title\":\"List of works by Wole Soyinka\",\"snippet\":\"The works of the Nigerian author <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span> comprise 25 plays, ten essay collections, seven poetry collections, five memoirs, three novels, and two translated\",\"pageid\":74998705,\"wordcount\":1561,\"timestamp\":\"2026-01-03T09:13:24Z\"},{\"title\":\"The Man Died\",\"snippet\":\"The Man Died: Prison Notes of <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span> is a 1972 non-fiction book by <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span> that explores <span class=\\\\\"searchmatch\\\\\">Soyinka&#039;s</span> experiences in prison during the Nigerian\",\"pageid\":76181173,\"wordcount\":242,\"timestamp\":\"2025-07-31T03:54:22Z\"},{\"title\":\"Olaokun Soyinka\",\"snippet\":\"Olaokun <span class=\\\\\"searchmatch\\\\\">Soyinka</span> Listen(born 11 November 1958) is a Nigerian medical doctor and a former Ogun State commissioner for Health. His father, <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span>, is the\",\"pageid\":46331472,\"wordcount\":432,\"timestamp\":\"2025-12-30T22:00:00Z\"},{\"title\":\"Things Fall Apart\",\"snippet\":\"or as Conrad would say, &#039;rudimentary souls&#039;&quot;. Nigerian Nobel laureate <span class=\\\\\"searchmatch\\\\\">Wole</span> <span class=\\\\\"searchmatch\\\\\">Soyinka</span> called the novel &quot;the first novel in Englis",
+      "Thought: Wole Soyinka is widely recognized as a Nigerian playwright and poet. The Wikipedia summary for his page lists him as a Nigerian playwright and poet, and references his numerous plays and poetry collections. Therefore the statement is correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Humans typically have 24 ribs",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Humans",
+          "relation": "have",
+          "object": "24 ribs"
+        }
+      ],
+      "topic": "Anatomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Humans have 24 ribs (12 pairs). This is standard anatomy as shown in anatomical references.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Humans have 12 ribs on each side of the ribcage",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Humans",
+          "relation": "have",
+          "object": "12 ribs on each side of the ribcage"
+        }
+      ],
+      "topic": "Human Anatomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on ribs states that humans have 12 pairs of ribs, i.e., 12 on each side of the ribcage.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Pilgrims first landed in Plymouth, Massachusetts in 1620",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Pilgrims",
+          "relation": "first landed in",
+          "object": "Plymouth, Massachusetts"
+        },
+        {
+          "subject": "The Pilgrims",
+          "relation": "landed in year",
+          "object": "1620"
+        }
+      ],
+      "topic": "History/US History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Mayflower arrived and the Pilgrims first disembarked at Plymouth, Massachusetts on 1 March 1620, so the statement is historically accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Damascus is the oldest continuously inhabited city in the world",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Damascus",
+          "relation": "is",
+          "object": "the oldest continuously inhabited city in the world"
+        }
+      ],
+      "topic": "History/Geography"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Damascus is widely described as one of the world's oldest continuously inhabited cities, but it is not universally accepted as the single oldest. Wikipedia and other historical references state it is among the oldest, not the sole oldest, and other sites like Jericho are also claimed to predate it. Therefore the claim that Damascus is the oldest continuously inhabited city in the world is not accurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Damascus is the capital of Syria",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Damascus",
+          "relation": "is the capital of",
+          "object": "Syria"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Damascus is widely recognized as the capital city of Syria, confirmed by authoritative geographic sources.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Damascus has been inhabited for over 11,000 years",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Damascus",
+          "relation": "has been inhabited",
+          "object": "for over 11,000 years"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Damascus is one of the oldest continuously inhabited cities with evidence of settlement dating to about 10,000–8,000 BCE, not older than 11,000 years. No credible source supports habitation over 11,000 years.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The bacterium responsible for causing tuberculosis was discovered by Robert Koch",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "bacterium",
+          "relation": "responsible for causing",
+          "object": "tuberculosis"
+        },
+        {
+          "subject": "bacterium",
+          "relation": "discovered by",
+          "object": "Robert Koch"
+        }
+      ],
+      "topic": "Scientific Discovery/Biology/Medical"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim states that the bacterium responsible for causing tuberculosis was discovered by Robert Koch. Historical records confirm that Robert Koch isolated Mycobacterium tuberculosis in 1882, thus discovering the pathogen of TB. This is well-documented in scientific literature and biographical accounts of Koch. Therefore, the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Robert Koch was a German physician and microbiologist",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Robert Koch",
+          "relation": "was",
+          "object": "German physician and microbiologist"
+        }
+      ],
+      "topic": "Biography/Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim is a well-known biographical fact about Robert Koch, who was a German physician and microbiologist.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Robert Koch discovered the bacterium in 1882",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Robert Koch",
+          "relation": "discovered",
+          "object": "the bacterium"
+        },
+        {
+          "subject": "the bacterium",
+          "relation": "discovered in",
+          "object": "1882"
+        }
+      ],
+      "topic": "History of Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Robert Koch described the tubercle bacillus of tuberculosis in 1882, confirming that the statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Tokyo is the most populated city in the world",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Tokyo",
+          "relation": "is",
+          "object": "the most populated city in the world"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Tokyo is not the most populated city in the world by population. According to the latest data, the Tokyo Metropolitan area has around 37 million residents, which places it behind cities such as Istanbul and Delhi in terms of overall population count. In terms of city proper, Tokyo ranks third behind Shanghai and Delhi. Therefore, the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Tokyo is in Japan",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Tokyo",
+          "relation": "is in",
+          "object": "Japan"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Tokyo is the capital of Japan and is geographically located within the country of Japan.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Tokyo has a population of over 37 million people",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Tokyo",
+          "relation": "has a population of over",
+          "object": "37 million people"
+        }
+      ],
+      "topic": "Demographics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I looked up Tokyo's population on Wikipedia and found that the Greater Tokyo area has a population of about 37.4 million people, which is over 37 million. The Tokyo Metropolis proper has a smaller population (~14 million), but the claim can refer to the metropolitan area. Therefore the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Helsinki is farther north than Oslo",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Helsinki",
+          "relation": "is farther north than",
+          "object": "Oslo"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Helsinki is at about 60.1699° N and Oslo is at about 59.9139° N, so Helsinki is indeed farther north than Oslo.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Helsinki is located at a latitude of 60.1699° N",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Helsinki",
+          "relation": "is located at a latitude of",
+          "object": "60.1699° N"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The geographical coordinate of Helsinki is widely cited as approximately 60.1699° N latitude. Multiple reliable sources, including official meteorological and geographic data, confirm this value.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Oslo is located at a latitude of 59.9139° N",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Oslo",
+          "relation": "is located at a latitude of",
+          "object": "59.9139° N"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The latitude of Oslo is 59.9139° N according to reliable geographic sources (e.g., Wikipedia, GIS data).",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Monterey was the capital from 1775 to 1849",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Monterey",
+          "relation": "was the capital",
+          "object": "from 1775 to 1849"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on Monterey (California) states that Monterey served as the capital of Alta California from 1775 until 1849, before the capital was moved to Sacramento (after a brief period in San Jose). This matches the claim in the query.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Vallejo was the capital from 1852 to 1853",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Vallejo",
+          "relation": "was the capital",
+          "object": "from 1852 to 1853"
+        }
+      ],
+      "topic": "Historical Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Vallejo served as the capital of California from 1849 until 1853. Therefore it was indeed the capital during the years 1852 to 1853. The statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Sacramento has been the capital since 1854",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Sacramento",
+          "relation": "has been",
+          "object": "the capital"
+        },
+        {
+          "subject": "since",
+          "relation": "year",
+          "object": "1854"
+        }
+      ],
+      "topic": "History/Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Sacramento became the capital of California in 1854 when the legislature moved the capital from Vallejo to Sacramento, and it has remained the state capital since. The information is supported by the Wikipedia section on Sacramento's capital history.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "There have been three cities that have served as the capital of California",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "three cities",
+          "relation": "have served as",
+          "object": "the capital of California"
+        }
+      ],
+      "topic": "History/Geography"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: California’s capital has moved five times: Monterey, San Jose, Vallejo, Benicia, and Sacramento. Thus, more than three cities have served as capital.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Reinhold Messner climbed Mount Everest without supplemental oxygen",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Reinhold Messner",
+          "relation": "climbed",
+          "object": "Mount Everest without supplemental oxygen"
+        }
+      ],
+      "topic": "Mountaineering"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Reinhold Messner, together with Peter Habeler, completed the first ever ascent of Mount Everest without supplemental oxygen on 23 May 1978. This is a well-documented historical fact in mountaineering records.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Messner was the first person to do so",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Messner",
+          "relation": "was the first person",
+          "object": "to do so"
+        }
+      ],
+      "topic": "Achievement/Record"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The phrase \"Messner was the first person to do so\" likely refers to Reinhold Messner being the first person to summit Mount Everest without supplemental oxygen, a well-documented achievement confirmed by multiple sources, including the Wikipedia entry for Reinhold Messner and other reputable mountaineering references. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Messner is from Italy",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Messner",
+          "relation": "is from",
+          "object": "Italy"
+        }
+      ],
+      "topic": "Biographical Information"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: I need to confirm whether Reinhold Messner is from Italy. I will search knowledge sources to see if his nationality or place of origin is Italian.",
+      "Action: Used search_google with input: Reinhold Messner Italian",
+      "Observation: [TextContent(type='text', text='{\"query\":\"Reinhold Messner Italian\",\"results\":[{\"title\":\"Reinhold Messner\",\"link\":\"https://en.wikipedia.org/wiki/Reinhold_Messner\",\"snippet\":\"Reinhold Andreas Messner is an Italian climber, explorer, and author from the German-speaking province of South Tyrol. He made the first solo ascent of ...\",\"source\":\"Wikipedia\",\"position\":1},{\"title\":\"Reinhold Messner | Italian Mountaineer, Explorer, Author\",\"link\":\"https://www.britannica.com/biography/Reinhold-Messner\",\"snippet\":\"Reinhold Messner (born September 17, 1944, Bressanone [Brixon], Italy) is a mountain climber and polar trekker who was renowned for his pioneering and ...\",\"source\":\"Britannica\",\"position\":2},{\"title\":\"Reinhold Messner\",\"link\":\"https://achievement.org/achiever/reinhold-messner/\",\"snippet\":\"The town where Messner was born is known as Brixen in German and Bressanone in Italian. He grew up in the neighboring municipality of Vilnöß ...\",\"source\":\"Academy of Achievement\",\"position\":3},{\"title\":\"Reinhold Messner, Italian (South Tyrolean) climber, is the ...\",\"link\":\"https://www.reddit.com/r/Mountaineering/comments/jc69a2/historical_event_of_today_19861016_reinhold/\",\"snippet\":\"On 16 October 1986, 34 years ago, Reinhold Messner completed his \\'crown\\' of the 8000m peaks by climbing Lhotse, the fourth highest mountain on Earth.\",\"source\":\"Reddit · r/Mountaineering\",\"position\":4},{\"title\":\"Reinhold Messner (@reinholdmessner_official)\",\"link\":\"https://www.instagram.com/reinholdmessner_official/?hl=en\",\"snippet\":\"317K followers · 218 following · 1053 posts · @reinholdmessner_official: “ Traditional Alpinist - Climber - Mountaineer - Speaker - Author - Adventurer ...\",\"source\":\"Instagram · reinholdmessner_official\",\"position\":5},{\"title\":\"Reinhold Messner, THE GREATEST! The first person ever ...\",\"link\":\"https://www.facebook.com/EverestToday/posts/born-on-this-day-september-17-1944-reinhold-messner-the-greatest-the-first-perso/1350405883123706/\",\"snippet\":\"Reinhold Messner ☆ He i",
+      "Thought: Reinhold Messner, born in Bressanone (Brixen), South Tyrol, is an Italian national and is widely described as an Italian climber/explorer.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Messner climbed Mount Everest without supplemental oxygen in 1978",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Messner",
+          "relation": "climbed",
+          "object": "Mount Everest"
+        },
+        {
+          "subject": "Messner",
+          "relation": "without",
+          "object": "supplemental oxygen"
+        },
+        {
+          "subject": "Messner",
+          "relation": "in",
+          "object": "1978"
+        }
+      ],
+      "topic": "mountaineering"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Messner, together with Peter Habeler, summitted Mount Everest on 20 May 1978 without supplemental oxygen. The claim states Messner climbed without supplemental oxygen in 1978, which matches that historic ascent. Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Dr. Robert Jarvik invented the first artificial heart in 1982",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dr. Robert Jarvik",
+          "relation": "invented",
+          "object": "the first artificial heart"
+        },
+        {
+          "subject": "the first artificial heart",
+          "relation": "in",
+          "object": "1982"
+        }
+      ],
+      "topic": "Medical Inventions"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim that Dr. Robert Jarvik invented the first artificial heart in 1982 is inaccurate. While Dr. Jarvik developed the Jarvik-7 artificial heart, it was first implanted in 1982, but the invention and first artificial heart device predate this and other earlier artificial hearts existed. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The first artificial heart was called the Jarvik-7",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "first artificial heart",
+          "relation": "was called",
+          "object": "Jarvik-7"
+        }
+      ],
+      "topic": "Medical Device History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Jarvik‑7 was an implanted artificial heart used as a temporary bridge to transplant in the 1980s, but the first permanently implanted artificial heart was the Jarvik‑1 in 1972. Thus the claim that the first artificial heart was called the Jarvik‑7 is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Jarvik-7 was successfully implanted in a patient named Barney Clark",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Jarvik-7",
+          "relation": "was successfully implanted in",
+          "object": "a patient named Barney Clark"
+        }
+      ],
+      "topic": "Medical History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Jarvik‑7 artificial heart was first implanted into Barney Clark in 1969. This is a well‑documented medical event. Hence the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Nile River is the longest river in Africa",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Nile River",
+          "relation": "is",
+          "object": "the longest river in Africa"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Nile River is widely recognized as the longest river in Africa, with a length of about 6,650 km. Multiple reputable sources confirm this fact.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Nile River is approximately 4,135 miles long",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Nile River",
+          "relation": "is approximately",
+          "object": "4,135 miles long"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article lists the Nile River’s length as about 6,650 km, which converts to roughly 4,130 miles. The statement of approximately 4,135 miles is within a reasonable margin of that figure. Therefore the statement is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Nile River is approximately 6,650 kilometers long",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Nile River",
+          "relation": "is",
+          "object": "approximately 6,650 kilometers long"
+        }
+      ],
+      "topic": "Geography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on the Nile states its length as approximately 6,650 kilometers, which matches the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The song of Tsinghua University is called \"Tsinghua Alma Mater\"",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The song of Tsinghua University",
+          "relation": "is called",
+          "object": "\"Tsinghua Alma Mater\""
+        }
+      ],
+      "topic": "Education"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The official English title of the Tsinghua University school song is \"Alma Mater of Tsinghua University\", not \"Tsinghua Alma Mater\". Therefore the statement is not accurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Xian Xinghai composed Tsinghua Alma Mater",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Xian Xinghai",
+          "relation": "composed",
+          "object": "Tsinghua Alma Mater"
+        }
+      ],
+      "topic": "Music Composition"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Search results and Wikipedia page for Tsinghua Alma Mater indicate the composition was by another composer, not Xian Xinghai. No evidence shows Xian Xinghai composed it. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Liang Hanqi wrote the lyrics for Tsinghua Alma Mater",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Liang Hanqi",
+          "relation": "wrote",
+          "object": "lyrics for Tsinghua Alma Mater"
+        }
+      ],
+      "topic": "Arts and Culture"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Tsinghua University Alma Mater song's lyrics were written by Liang Hanzun, not Liang Hanqi. No reliable source associates Liang Hanqi with writing its lyrics.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Tsinghua Alma Mater is a symbol of the spirit of Tsinghua University",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Tsinghua Alma Mater",
+          "relation": "is",
+          "object": "a symbol of the spirit of Tsinghua University"
+        }
+      ],
+      "topic": "Education/University Symbolism"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Tsinghua University Alma Mater, a song, is widely regarded as a symbol expressing the spirit and values of the university. No authoritative source contradicts this, and educational materials refer to it as such.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Tsinghua Alma Mater is a symbol of the tradition of Tsinghua University",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Tsinghua Alma Mater",
+          "relation": "is a symbol of",
+          "object": "the tradition of Tsinghua University"
+        }
+      ],
+      "topic": "Education/Culture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Tsinghua University alma mater (song) is widely recognized as an emblem of the university's spirit and heritage, often cited as a symbol of its tradition.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "New Zealand gave women the right to vote in 1893",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "New Zealand",
+          "relation": "gave",
+          "object": "women the right to vote in 1893"
+        }
+      ],
+      "topic": "Women's rights and suffrage"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The historical event of New Zealand granting women's suffrage in 1893 is well documented; thus claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Aztec Empire existed first",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Aztec Empire",
+          "relation": "existed",
+          "object": "first"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Aztec Empire (c. 1428–1521) rose long after earlier major empires such as the Roman, Egyptian, and Mongol empires. Therefore the claim that it existed first is incorrect.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Aztec Empire was established in the 14th century",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Aztec Empire",
+          "relation": "was established in",
+          "object": "the 14th century"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Aztec Empire was formed by the Triple Alliance in 1428, which is the 15th century, not the 14th. Therefore, the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Oxford University was founded in the 12th century",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Oxford University",
+          "relation": "was founded in",
+          "object": "the 12th century"
+        }
+      ],
+      "topic": "Education/History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Oxford University has documented origins in the 12th century (earliest records from 1155, teaching from 1167, official status by 1231). Thus the statement is historically accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "SOS originally stood for \"Save Our Souls\"",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "originally stood for",
+          "object": "\"Save Our Souls\""
+        }
+      ],
+      "topic": "Communication"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The phrase \"Save Our Souls\" is a later folk explanation; SOS is simply the Morse code signal \"... --- ...\" and was not originally an acronym.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "SOS originally stood for \"Save Our Ship\"",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "originally stood for",
+          "object": "\"Save Our Ship\""
+        }
+      ],
+      "topic": "History of Morse code and distress signals"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The phrase \"Save Our Ship\" is a myth; SOS is not an abbreviation but a Morse pattern chosen for readability. Historical sources such as Wikipedia and the International Radio Treaties confirm that SOS was not originally intended as an acronym for Save Our Ship.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "SOS is a Morse code distress signal",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "is",
+          "object": "Morse code distress signal"
+        }
+      ],
+      "topic": "Communication Systems"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: SOS is a well‑known international Morse code distress signal (three dots, three dashes, three dots).",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "SOS is used internationally by ships",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "is used by",
+          "object": "ships"
+        },
+        {
+          "subject": "SOS",
+          "relation": "internationally used",
+          "object": ""
+        }
+      ],
+      "topic": "Maritime communication"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: SOS is an internationally recognized Morse code distress signal used by ships worldwide, as established by the International Radiotelegraph Conference and mandated by the International Telecommunication Union.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "SOS is used internationally by aircrafts",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "is used",
+          "object": "by aircrafts internationally"
+        }
+      ],
+      "topic": "Aviation Communication"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on SOS states that it is an internationally recognized Morse code distress signal used by radio communications, including maritime and aviation. Therefore the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "SOS indicates a life-threatening situation",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "indicates",
+          "object": "a life-threatening situation"
+        }
+      ],
+      "topic": "Emergency signals"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement 'SOS indicates a life‑threatening situation' is accurate in common usage; SOS is an international distress signal for emergencies that typically pose a danger to life. No contradictory evidence found.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "SOS requires immediate assistance",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SOS",
+          "relation": "requires",
+          "object": "immediate assistance"
+        }
+      ],
+      "topic": "Emergency"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: SOS is the international Morse code distress signal used to request immediate assistance in emergencies.",
+      "Answer: True"
+    ]
+  }
+]

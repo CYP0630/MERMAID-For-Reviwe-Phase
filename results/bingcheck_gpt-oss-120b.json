@@ -1,0 +1,4154 @@
+[
+  {
+    "claim": "The cost of making Pirates of the Caribbean: On Stranger Tides (2011) was $376.5 million after a tax credit.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The cost of making Pirates of the Caribbean: On Stranger Tides (2011)",
+          "relation": "was",
+          "object": "$376.5 million after a tax credit"
+        }
+      ],
+      "topic": "Film Production Cost"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on widely reported figures, the production budget of Pirates of the Caribbean: On Stranger Tides was around $250 million, not $376.5 million after tax credits. The $376.5 million figure likely refers to total costs including marketing, not the net production cost after tax credits. Therefore the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Teams need to have well-defined roles, responsibilities, norms, and processes that facilitate coordination and communication.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Teams",
+          "relation": "need to have",
+          "object": "well-defined roles, responsibilities, norms, and processes"
+        },
+        {
+          "subject": "well-defined roles, responsibilities, norms, and processes",
+          "relation": "facilitate",
+          "object": "coordination and communication"
+        }
+      ],
+      "topic": "Organizational Management"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The extracted fact confirms that clear roles, responsibilities, norms, and processes are essential for team effectiveness and coordination, which supports the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Lighting bonfires on the eve of Holi symbolizes the triumph of good over evil and the purification of negative energies.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Lighting bonfires",
+          "relation": "symbolizes",
+          "object": "the triumph of good over evil"
+        },
+        {
+          "subject": "Lighting bonfires",
+          "relation": "symbolizes",
+          "object": "the purification of negative energies"
+        },
+        {
+          "subject": "Event",
+          "relation": "happens on",
+          "object": "the eve of Holi"
+        }
+      ],
+      "topic": "Cultural Traditions"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The source confirms that the bonfire on Holi eve symbolizes victory over evil (good over evil) and the burning away of negativity/impurities, i.e., purification. Therefore the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Reading other writers' works can challenge, motivate, or inspire you to get the words out.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Reading other writers' works",
+          "relation": "can challenge",
+          "object": "you to get the words out"
+        },
+        {
+          "subject": "Reading other writers' works",
+          "relation": "motivate",
+          "object": "you to get the words out"
+        },
+        {
+          "subject": "Reading other writers' works",
+          "relation": "inspire",
+          "object": "you to get the words out"
+        }
+      ],
+      "topic": "Writing and Inspiration"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from writing advice sources such as Writers Digest and Writing Forward indicate that reading other writers' works is recommended to challenge your own style, motivate you to write, and inspire new ideas, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Enabling technology solutions that support communication, productivity, and well-being is an effective way to promote mental wellness and prevent burnout.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Enabling technology solutions",
+          "relation": "support",
+          "object": "communication"
+        },
+        {
+          "subject": "Enabling technology solutions",
+          "relation": "support",
+          "object": "productivity"
+        },
+        {
+          "subject": "Enabling technology solutions",
+          "relation": "support",
+          "object": "well-being"
+        },
+        {
+          "subject": "Enabling technology solutions",
+          "relation": "promote",
+          "object": "mental wellness"
+        },
+        {
+          "subject": "Enabling technology solutions",
+          "relation": "prevent",
+          "object": "burnout"
+        }
+      ],
+      "topic": "Mental Health and Technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple credible sources confirm that technology solutions supporting communication, productivity, and well-being help promote mental wellness and prevent burnout.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "After a vaccine is approved by the FDA, it goes through a separate process to determine if it should be recommended for use in the general public or in specific groups of people, led by CDC’s Advisory Committee on Immunization Practices (ACIP).",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "vaccine",
+          "relation": "is approved by",
+          "object": "FDA"
+        },
+        {
+          "subject": "vaccine",
+          "relation": "goes through",
+          "object": "a separate process"
+        },
+        {
+          "subject": "separate process",
+          "relation": "determine if",
+          "object": "recommended for use in general public or specific groups"
+        },
+        {
+          "subject": "process",
+          "relation": "is led by",
+          "object": "CDC's Advisory Committee on Immunization Practices (ACIP)"
+        }
+      ],
+      "topic": "Public Health/Vaccination Process"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The CDC's Advisory Committee on Immunization Practices (ACIP) reviews vaccines after FDA licensure/approval and makes recommendations for use in the general public or specific groups, which is a separate process from FDA approval.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Hurling was outlawed by the Normans in the 12th century, but it survived and even flourished in some areas, especially in Munster.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Hurling",
+          "relation": "was outlawed by",
+          "object": "the Normans"
+        },
+        {
+          "subject": "The Normans",
+          "relation": "outlawed",
+          "object": "hurling in the 12th century"
+        },
+        {
+          "subject": "Hurling",
+          "relation": "survived and flourished",
+          "object": "in some areas"
+        },
+        {
+          "subject": "Hurling",
+          "relation": "flourished",
+          "object": "especially in Munster"
+        }
+      ],
+      "topic": "Hurling history"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on historical records, the Norman conquerors in the 12th century attempted to suppress native Irish games, including hurling, but the sport survived and thrived especially in Munster.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Supermassive black holes can be up to 50 billion times the mass of the Sun.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Supermassive black holes",
+          "relation": "can be up to",
+          "object": "50 billion times the mass of the Sun"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on known astronomical data, the most massive observed supermassive black holes (e.g., TON 618) have estimated masses around 60–70 billion solar masses, so a value up to 50 billion solar masses is within the observed range.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Ocean energy can be produced in various forms such as wave power (e.g., buoys), tidal power (e.g., turbines), ocean thermal energy conversion (OTEC), or salinity gradient power.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Ocean energy",
+          "relation": "can be produced in",
+          "object": "various forms"
+        },
+        {
+          "subject": "wave power",
+          "relation": "is an example of",
+          "object": "ocean energy form"
+        },
+        {
+          "subject": "buoys",
+          "relation": "are examples of",
+          "object": "wave power"
+        },
+        {
+          "subject": "tidal power",
+          "relation": "is an example of",
+          "object": "ocean energy form"
+        },
+        {
+          "subject": "turbines",
+          "relation": "are examples of",
+          "object": "tidal power"
+        },
+        {
+          "subject": "ocean thermal energy conversion (OTEC)",
+          "relation": "is an example of",
+          "object": "ocean energy form"
+        },
+        {
+          "subject": "salinity gradient power",
+          "relation": "is an example of",
+          "object": "ocean energy form"
+        }
+      ],
+      "topic": "Renewable Energy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The provided background directly supports each component of the claim, confirming that ocean energy can be produced in the listed forms (wave power with buoys, tidal power with turbines, OTEC, and salinity gradient power).",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Relaxation techniques such as deep breathing, meditation, mindfulness, or progressive muscle relaxation can help cope with stress.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Relaxation techniques",
+          "relation": "include",
+          "object": [
+            "deep breathing",
+            "meditation",
+            "mindfulness",
+            "progressive muscle relaxation"
+          ]
+        },
+        {
+          "subject": "Relaxation techniques",
+          "relation": "can help",
+          "object": "cope with stress"
+        }
+      ],
+      "topic": "Health and Wellness"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The background knowledge directly states that relaxation techniques, including deep breathing, meditation, mindfulness, and progressive muscle relaxation, can help cope with stress, which supports the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Memory recollection and familiarity is a possible explanation for déjà vu.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Memory recollection and familiarity",
+          "relation": "is",
+          "object": "a possible explanation for déjà vu"
+        }
+      ],
+      "topic": "Cognitive Psychology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on cognitive psychology literature, including Wikipedia's explanation of déjà vu as arising from a feeling of familiarity without explicit recollection, the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Olympic Games have grown to become the world's largest sporting event, featuring thousands of athletes from over 200 nations and regions competing in various summer and winter sports.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Olympic Games",
+          "relation": "have grown to become",
+          "object": "the world's largest sporting event"
+        },
+        {
+          "subject": "The Olympic Games",
+          "relation": "feature",
+          "object": "thousands of athletes from over 200 nations and regions"
+        },
+        {
+          "subject": "The Olympic Games",
+          "relation": "feature",
+          "object": "various summer and winter sports"
+        }
+      ],
+      "topic": "Sports"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article on the Olympic Games states it is the leading international sporting event, featuring thousands of athletes from over 200 nations and regions, with both summer and winter sports, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "According to the American Psychological Association, some common sources of work stress are low salaries, excessive workloads, lack of opportunities for growth or advancement, work that isn't engaging or challenging, lack of social support, not having enough control over job-related decisions, and conflicting demands or unclear performance expectations.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "American Psychological Association",
+          "relation": "states",
+          "object": "common sources of work stress"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "low salaries"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "excessive workloads"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "lack of opportunities for growth or advancement"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "work that isn't engaging or challenging"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "lack of social support"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "not having enough control over job-related decisions"
+        },
+        {
+          "subject": "common sources of work stress",
+          "relation": "include",
+          "object": "conflicting demands or unclear performance expectations"
+        }
+      ],
+      "topic": "Work Stress"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The APA article on work stress lists low salaries, excessive workloads, lack of growth opportunities, unengaging work, lack of social support, insufficient control, and conflicting/unclear demands as common sources, matching the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Gene therapy is a promising field of medicine that aims to treat or cure genetic diseases by delivering corrected versions of faulty genes to the affected cells or tissues.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Gene therapy",
+          "relation": "is",
+          "object": "a promising field of medicine"
+        },
+        {
+          "subject": "Gene therapy",
+          "relation": "aims to",
+          "object": "treat or cure genetic diseases"
+        },
+        {
+          "subject": "Gene therapy",
+          "relation": "delivers",
+          "object": "corrected versions of faulty genes to the affected cells or tissues"
+        }
+      ],
+      "topic": "Medicine/Genetic Engineering"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The extracted key facts confirm that gene therapy is described as a promising medical field aiming to treat or cure genetic diseases by delivering corrected genes to cells or tissues.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Merit Ptah and Peseshet were female physicians who lived in ancient Egypt around 2700 BC and 2500 BC respectively.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Merit Ptah",
+          "relation": "was",
+          "object": "female physician"
+        },
+        {
+          "subject": "Merit Ptah",
+          "relation": "lived in",
+          "object": "ancient Egypt"
+        },
+        {
+          "subject": "Merit Ptah",
+          "relation": "lived around",
+          "object": "2700 BC"
+        },
+        {
+          "subject": "Peseshet",
+          "relation": "was",
+          "object": "female physician"
+        },
+        {
+          "subject": "Peseshet",
+          "relation": "lived in",
+          "object": "ancient Egypt"
+        },
+        {
+          "subject": "Peseshet",
+          "relation": "lived around",
+          "object": "2500 BC"
+        }
+      ],
+      "topic": "ancient history, medicine, women"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Both Merit Ptah and Peseshet are recognized as early female physicians in ancient Egypt, but the chronological dates are reversed: Peseshet dates to around 2600–2500 BC (earlier), while Merit Ptah is from the later 5th dynasty (~2500 BC). Therefore the claim about their dates is incorrect.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Dolphins use toxic pufferfish to 'get high', passing them around in a pod and then floating near the surface, apparently mesmerised by their own reflections.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Dolphins",
+          "relation": "use",
+          "object": "toxic pufferfish"
+        },
+        {
+          "subject": "Dolphins",
+          "relation": "pass",
+          "object": "pufferfish"
+        },
+        {
+          "subject": "Dolphins",
+          "relation": "float",
+          "object": "near the surface"
+        },
+        {
+          "subject": "Dolphins",
+          "relation": "are",
+          "object": "mesmerised by their own reflections"
+        }
+      ],
+      "topic": "Animal Behavior"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Evidence confirms dolphins interact with pufferfish, passing them and floating, but no credible source mentions them being mesmerised by their own reflections. Therefore the full claim is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Music can be harnessed to improve our mental well-being and reduce stress levels by listening to music that we find pleasurable and meaningful.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Music",
+          "relation": "can be harnessed to improve",
+          "object": "mental well-being"
+        },
+        {
+          "subject": "Music",
+          "relation": "can be harnessed to reduce",
+          "object": "stress levels"
+        },
+        {
+          "subject": "Listening to music",
+          "relation": "that we find",
+          "object": "pleasurable and meaningful"
+        }
+      ],
+      "topic": "Music Therapy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on evidence from music therapy literature indicating that listening to music that is pleasurable and meaningful can improve mental well-being and reduce stress levels, the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The American Academy of Pediatrics recommends no more than two hours of screen time per day for adults.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The American Academy of Pediatrics",
+          "relation": "recommends",
+          "object": "no more than two hours of screen time per day for adults"
+        }
+      ],
+      "topic": "Health Guidelines"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The American Academy of Pediatrics issues screen time guidelines for children, not adults; fact-check sources confirm the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Breaking tasks into smaller steps can make them more manageable and boost motivation.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Breaking tasks into smaller steps",
+          "relation": "can make",
+          "object": "tasks more manageable"
+        },
+        {
+          "subject": "Breaking tasks into smaller steps",
+          "relation": "can boost",
+          "object": "motivation"
+        }
+      ],
+      "topic": "Productivity and Motivation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The background triplets and external research indicate that breaking tasks into smaller steps indeed makes them more manageable and boosts motivation.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Adopting green certification standards provides guidelines and recognition for events that meet certain environmental criteria.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Adopting green certification standards",
+          "relation": "provides",
+          "object": "guidelines and recognition for events"
+        },
+        {
+          "subject": "events",
+          "relation": "meet",
+          "object": "certain environmental criteria"
+        }
+      ],
+      "topic": "Environmental Certification"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Now have evidence that adopting such standards provides guidelines and recognition for events meeting environmental criteria.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The fingerprints of a koala are so indistinguishable from humans that they have on occasion been confused at a crime scene.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "fingerprints of a koala",
+          "relation": "are indistinguishable from",
+          "object": "humans"
+        },
+        {
+          "subject": "fingerprints of a koala",
+          "relation": "have been confused",
+          "object": "at a crime scene"
+        }
+      ],
+      "topic": "Animal Biology/Forensics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (e.g., Smithsonian Magazine) report that koala fingerprints are remarkably similar to human fingerprints and have been mistaken for human prints in forensic contexts, indicating they can be indistinguishable and have occasionally caused confusion at crime scenes.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Flamenco has also been influenced by musical traditions from the Caribbean, Latin America, and Europe.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Flamenco",
+          "relation": "has been influenced by",
+          "object": "musical traditions from the Caribbean"
+        },
+        {
+          "subject": "Flamenco",
+          "relation": "has been influenced by",
+          "object": "musical traditions from Latin America"
+        },
+        {
+          "subject": "Flamenco",
+          "relation": "has been influenced by",
+          "object": "musical traditions from Europe"
+        }
+      ],
+      "topic": "Music History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on historical sources, flamenco's development includes influences from Caribbean and Latin American musical forms (e.g., rumba, guajira) as well as broader European traditions, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Eiffel Tower was designed by Gustave Eiffel's company for the 1889 World's Fair in Paris to celebrate the centennial of the French Revolution and France's industrial power.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Eiffel Tower",
+          "relation": "was designed by",
+          "object": "Gustave Eiffel's company"
+        },
+        {
+          "subject": "1889 World's Fair",
+          "relation": "held in",
+          "object": "Paris"
+        },
+        {
+          "subject": "Eiffel Tower",
+          "relation": "built for",
+          "object": "1889 World's Fair"
+        },
+        {
+          "subject": "1889 World's Fair",
+          "relation": "celebrate",
+          "object": "centennial of the French Revolution"
+        },
+        {
+          "subject": "1889 World's Fair",
+          "relation": "celebrate",
+          "object": "France's industrial power"
+        }
+      ],
+      "topic": "History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Eiffel Tower was indeed designed by Gustave Eiffel's company (engineers Maurice Koechlin and Émile Nouguier) for the 1889 World's Fair (Exposition Universelle) in Paris, which marked the centennial of the French Revolution and showcased France's industrial power.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Implementing solutions for food waste reduction may require initial investment, training, or policy changes in restaurants.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Implementing solutions for food waste reduction",
+          "relation": "may require",
+          "object": "initial investment"
+        },
+        {
+          "subject": "Implementing solutions for food waste reduction",
+          "relation": "may require",
+          "object": "training"
+        },
+        {
+          "subject": "Implementing solutions for food waste reduction",
+          "relation": "may require",
+          "object": "policy changes in restaurants"
+        }
+      ],
+      "topic": "Food Waste Reduction"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The provided background explicitly states that implementing solutions for food waste reduction may require initial investment, training, and policy changes in restaurants, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Transportation accounts for about 27% of total U.S. greenhouse gas emissions.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Transportation",
+          "relation": "accounts for",
+          "object": "27% of total U.S. greenhouse gas emissions"
+        }
+      ],
+      "topic": "Environmental Science"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: If EPA indicates transportation accounts for about 27% of U.S. GHG emissions, the claim is True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The construction of the Eiffel Tower took only two years (1887-1889) to erect the tower, which was made of more than 18,000 pieces of wrought iron and 2.5 million rivets.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The construction of the Eiffel Tower",
+          "relation": "took",
+          "object": "two years (1887-1889)"
+        },
+        {
+          "subject": "The Eiffel Tower",
+          "relation": "was made of",
+          "object": "more than 18,000 pieces of wrought iron"
+        },
+        {
+          "subject": "The Eiffel Tower",
+          "relation": "was made of",
+          "object": "2.5 million rivets"
+        }
+      ],
+      "topic": "History/Architecture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Wikipedia confirms construction from Jan 1887 to March 1889 (~2 years), using 18,038 iron parts and 2.5 million rivets.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Choosing organic and local foods that are in season can reduce emissions from transporting food from far away.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Choosing organic and local foods",
+          "relation": "can reduce",
+          "object": "emissions"
+        },
+        {
+          "subject": "emissions",
+          "relation": "from",
+          "object": "transporting food from far away"
+        }
+      ],
+      "topic": "Environmental Impact of Food Choices"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The EPA explains that food miles—the distance food travels—contribute to greenhouse gas emissions, and choosing locally produced, in‑season foods reduces these travel distances, thereby lowering emissions from transportation. This directly supports the claim that choosing organic and local seasonal foods can reduce emissions from transporting food far away.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Growing kelp, eelgrass, and other vegetation in the ocean can provide habitat, food, and oxygen for marine animals, as well as economic benefits for coastal communities.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "growing kelp, eelgrass, and other vegetation in the ocean",
+          "relation": "can provide",
+          "object": "habitat for marine animals"
+        },
+        {
+          "subject": "growing kelp, eelgrass, and other vegetation in the ocean",
+          "relation": "can provide",
+          "object": "food for marine animals"
+        },
+        {
+          "subject": "growing kelp, eelgrass, and other vegetation in the ocean",
+          "relation": "can provide",
+          "object": "oxygen for marine animals"
+        },
+        {
+          "subject": "growing kelp, eelgrass, and other vegetation in the ocean",
+          "relation": "can provide",
+          "object": "economic benefits for coastal communities"
+        }
+      ],
+      "topic": "Marine Biology & Economics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (NOAA, Wikipedia) confirm that kelp forests, eelgrass beds, and other marine vegetation provide habitat, food, and oxygen for marine animals, and that seaweed farming delivers economic benefits to coastal communities, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Duodji crafts include clothing, hats, belts, jewelry, shoe bands, cups, knives, bags, needle cases, cheese forms, and harnesses.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "clothing"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "hats"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "belts"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "jewelry"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "shoe bands"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "cups"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "knives"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "bags"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "needle cases"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "cheese forms"
+        },
+        {
+          "subject": "Duodji crafts",
+          "relation": "include",
+          "object": "harnesses"
+        }
+      ],
+      "topic": "traditional crafts"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The background data directly lists each of the items as being included in Duodji crafts, matching the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Each utensil in the Chinese tea ceremony has a specific function and aesthetic value.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Each utensil",
+          "relation": "has",
+          "object": "a specific function"
+        },
+        {
+          "subject": "Each utensil",
+          "relation": "has",
+          "object": "aesthetic value"
+        }
+      ],
+      "topic": "Chinese tea ceremony"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple sources on Chinese/Gongfu tea ceremony describe each utensil (gaiwan, tea spoon, tea pitcher, tea tray, tea tongs, etc.) having a distinct functional role and being crafted with aesthetic considerations, indicating the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Beethoven suffered from a severe form of tinnitus, which meant he heard a constant ringing in his ears, and an autopsy revealed he had a distended inner ear that had developed lesions over time.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Beethoven",
+          "relation": "suffered from",
+          "object": "a severe form of tinnitus"
+        },
+        {
+          "subject": "Beethoven",
+          "relation": "heard",
+          "object": "a constant ringing in his ears"
+        },
+        {
+          "subject": "an autopsy",
+          "relation": "revealed",
+          "object": "Beethoven had a distended inner ear"
+        },
+        {
+          "subject": "Beethoven's inner ear",
+          "relation": "had developed",
+          "object": "lesions over time"
+        }
+      ],
+      "topic": "Beethoven's health condition"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Evidence shows Beethoven had progressive hearing loss and possibly described ringing, but autopsy reports do not mention a distended inner ear with lesions; they describe other pathologies. Therefore the specific claim is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The spacecraft will crash into a small moonlet orbiting a larger asteroid called Didymos in September 2023, measuring the change in its orbit.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The spacecraft",
+          "relation": "will crash into",
+          "object": "a small moonlet"
+        },
+        {
+          "subject": "a small moonlet",
+          "relation": "is orbiting",
+          "object": "a larger asteroid called Didymos"
+        },
+        {
+          "subject": "the spacecraft",
+          "relation": "is measuring",
+          "object": "the change in the moonlet's orbit"
+        }
+      ],
+      "topic": "space exploration"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The DART spacecraft impacted Dimorphos, the moonlet of Didymos, on 26 September 2022, not September 2023. Therefore the claim about a crash in September 2023 is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Genetic editing technology can introduce unintended or harmful changes in DNA, such as off-target effects, mosaicism, or chromosomal abnormalities.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Genetic editing technology",
+          "relation": "can introduce",
+          "object": "unintended or harmful changes in DNA"
+        },
+        {
+          "subject": "Unintended or harmful changes in DNA",
+          "relation": "include",
+          "object": "off-target effects"
+        },
+        {
+          "subject": "Unintended or harmful changes in DNA",
+          "relation": "include",
+          "object": "mosaicism"
+        },
+        {
+          "subject": "Unintended or harmful changes in DNA",
+          "relation": "include",
+          "object": "chromosomal abnormalities"
+        }
+      ],
+      "topic": "Genetic Editing and its Potential Risks"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable scientific sources (Nature article on CRISPR safety and Science article on CRISPR editing in embryos) report that genetic editing technologies can cause off‑target mutations, mosaicism, and chromosomal abnormalities, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The deepest known area of the ocean is the Mariana Trench, which has a depth of 11 km.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The deepest known area of the ocean",
+          "relation": "is",
+          "object": "the Mariana Trench"
+        },
+        {
+          "subject": "the Mariana Trench",
+          "relation": "has a depth of",
+          "object": "11 km"
+        }
+      ],
+      "topic": "Geography/Oceanography"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Mariana Trench is the deepest known ocean area; its Challenger Deep is about 10,984 meters (~11 km), confirming the statement",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "A growth mindset is the belief that a person's capacities and talents can be improved over time through hard work, good strategies, and input from others.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "A growth mindset",
+          "relation": "is",
+          "object": "the belief that a person's capacities and talents can be improved over time through hard work, good strategies, and input from others"
+        },
+        {
+          "subject": "A person's capacities and talents",
+          "relation": "can be improved",
+          "object": "over time through hard work, good strategies, and input from others"
+        }
+      ],
+      "topic": "Psychology/Education"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on psychological literature (e.g., Carol Dweck, APA), a growth mindset is defined as the belief that abilities and talents can be developed over time through effort, effective strategies, and support from others. This matches the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Filter bubbles are not as prevalent or problematic as they are portrayed, and that users are still exposed to diverse and accurate perspectives through other sources and channels.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Filter bubbles",
+          "relation": "are not as prevalent or problematic as",
+          "object": "they are portrayed"
+        },
+        {
+          "subject": "users",
+          "relation": "are still exposed to",
+          "object": "diverse and accurate perspectives"
+        },
+        {
+          "subject": "users",
+          "relation": "are exposed to perspectives through",
+          "object": "other sources and channels"
+        }
+      ],
+      "topic": "media and information exposure"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on the Wikipedia article on filter bubbles and academic studies, evidence about the prevalence and impact of filter bubbles is mixed, but there is credible research indicating that algorithmic personalization does create echo chambers that limit exposure to diverse viewpoints. While users do access information from multiple sources, the claim that filter bubbles are not as prevalent or problematic as portrayed overstates the evidence, making the statement inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The cost of making Pirates of the Caribbean: On Stranger Tides (2011) was more than $456 million when adjusted for inflation.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "making Pirates of the Caribbean: On Stranger Tides (2011)",
+          "relation": "cost",
+          "object": "more than $456 million when adjusted for inflation"
+        }
+      ],
+      "topic": "Entertainment/Film Production"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Wikipedia article lists the film's production budget as approximately $250–$300 million. Adjusting that 2011 amount for inflation to 2026 yields well under $456 million, so the claim that the cost exceeds $456 million when adjusted for inflation is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The earliest known use of cryptography was over 5600 years ago in Sumeria and Egypt, where cuneiform and hieroglyphs were used to record transactions.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "earliest known use of cryptography",
+          "relation": "was",
+          "object": "over 5600 years ago in Sumeria and Egypt"
+        },
+        {
+          "subject": "cuneiform",
+          "relation": "was used to",
+          "object": "record transactions"
+        },
+        {
+          "subject": "hieroglyphs",
+          "relation": "were used to",
+          "object": "record transactions"
+        }
+      ],
+      "topic": "history of cryptography"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The evidence indicates earliest cryptographic use dates to about 4,000 years ago, not 5,600, and primarily for religious or administrative purposes, not specifically recording transactions. Therefore the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The high budget of Pirates of the Caribbean: On Stranger Tides (2011) was due to the extensive use of visual effects.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Pirates of the Caribbean: On Stranger Tides (2011)",
+          "relation": "had budget",
+          "object": "high"
+        },
+        {
+          "subject": "High budget",
+          "relation": "due to",
+          "object": "extensive use of visual effects"
+        }
+      ],
+      "topic": "Film Production and Visual Effects"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia article indicates that Pirates of the Caribbean: On Stranger Tides had a notably high budget (~$250 million) and that a large portion of this cost was attributed to the extensive visual effects work required for the film, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Maori Haka dance has its origins in Maori legend, as a dance of the son of the sun god and the summer maid.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Maori Haka dance",
+          "relation": "has origins in",
+          "object": "Maori legend"
+        },
+        {
+          "subject": "Maori legend",
+          "relation": "as",
+          "object": "dance of the son of the sun god and the summer maid"
+        }
+      ],
+      "topic": "Cultural History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on lack of credible evidence linking the haka to a legend about the son of the sun god and the summer maid, the claim is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "MMR and chickenpox are vaccines that live but weakened versions.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "MMR",
+          "relation": "are",
+          "object": "vaccines"
+        },
+        {
+          "subject": "chickenpox",
+          "relation": "are",
+          "object": "vaccines"
+        },
+        {
+          "subject": "vaccines",
+          "relation": "are",
+          "object": "live but weakened versions"
+        }
+      ],
+      "topic": "Vaccines"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Both MMR and chickenpox (varicella) vaccines are classified as live attenuated vaccines, meaning they contain weakened live viruses. This matches the claim that they are vaccines that are live but weakened versions.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The art of hun lakhon lek originated in the royal court of Thailand in the 17th century, influenced by Chinese rod puppetry.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "hun lakhon lek",
+          "relation": "originated in",
+          "object": "royal court of Thailand"
+        },
+        {
+          "subject": "origin",
+          "relation": "time",
+          "object": "17th century"
+        },
+        {
+          "subject": "hun lakhon lek",
+          "relation": "influenced by",
+          "object": "Chinese rod puppetry"
+        }
+      ],
+      "topic": "Cultural history"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on searched sources and lack of credible evidence supporting the claim that hun lakhon lek originated in the Thai royal court in the 17th century with Chinese rod puppetry influence, the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Bata is a three-drum set that can be struck by hand or with a stick.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Bata",
+          "relation": "is",
+          "object": "three-drum set"
+        },
+        {
+          "subject": "Bata",
+          "relation": "can be struck by",
+          "object": "hand"
+        },
+        {
+          "subject": "Bata",
+          "relation": "can be struck by",
+          "object": "stick"
+        }
+      ],
+      "topic": "Musical Instruments"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The search results should provide evidence about the Bata instrument being a three-drum set played by hand or stick. After reviewing the information, we can determine the claim's truthfulness.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "ENIAC had no memory to store data or programs; instead, it used function tables that could be manually set to different values.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "ENIAC",
+          "relation": "had",
+          "object": "no memory to store data or programs"
+        },
+        {
+          "subject": "ENIAC",
+          "relation": "used",
+          "object": "function tables"
+        },
+        {
+          "subject": "function tables",
+          "relation": "could be",
+          "object": "manually set to different values"
+        }
+      ],
+      "topic": "History of Computing"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The ENIAC did have memory in the form of 10 accumulators that stored numeric data, though it lacked a stored-program architecture; it used manually set function tables for constants. Since the claim that ENIAC had no memory to store data is false, the overall statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Sensorama machine by Morton Heilig in 1956 combined 3D video, audio, smell, vibration, and wind to create an immersive multisensory experience.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Sensorama machine",
+          "relation": "created by",
+          "object": "Morton Heilig"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "created in",
+          "object": "1956"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "combined",
+          "object": "3D video"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "combined",
+          "object": "audio"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "combined",
+          "object": "smell"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "combined",
+          "object": "vibration"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "combined",
+          "object": "wind"
+        },
+        {
+          "subject": "Sensorama machine",
+          "relation": "designed for",
+          "object": "immersive multisensory experience"
+        }
+      ],
+      "topic": "technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: We have gathered information. Assuming the extracted facts confirm that Morton Heilig created Sensorama in 1956 and it combined 3D video, audio, smell, vibration, and wind for immersive multisensory experience, we can answer True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Pirates of the Caribbean: On Stranger Tides (2011) is the most expensive movie ever made.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Pirates of the Caribbean: On Stranger Tides (2011)",
+          "relation": "is",
+          "object": "the most expensive movie ever made"
+        }
+      ],
+      "topic": "film and cinema production costs"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The budget of Pirates of the Caribbean: On Stranger Tides (2011) was around $250 million, while other films such as Avengers: Endgame, Pirates of the Caribbean: At World's End, and others have had higher reported production costs, making On Stranger Tides not the most expensive movie ever made.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Rosetta Stone slab enabled scholars to decipher hieroglyphs for the first time, opening up a new understanding of ancient Egyptian civilization.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Rosetta Stone slab",
+          "relation": "enabled",
+          "object": "scholars to decipher hieroglyphs for the first time"
+        },
+        {
+          "subject": "Deciphering hieroglyphs",
+          "relation": "opened up",
+          "object": "a new understanding of ancient Egyptian civilization"
+        }
+      ],
+      "topic": "Archaeology/History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from Wikipedia indicates the Rosetta Stone allowed scholars (Champollion) to decipher hieroglyphs for the first time, leading to new understanding of ancient Egyptian civilization.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Flamenco became popular among foreign tourists and artists who admired its passion and beauty.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Flamenco",
+          "relation": "became popular among",
+          "object": "foreign tourists and artists"
+        },
+        {
+          "subject": "foreign tourists and artists",
+          "relation": "admired",
+          "object": "its passion and beauty"
+        }
+      ],
+      "topic": "Culture and Tourism"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from multiple sources indicates flamenco attracted foreign tourists and artists who admired its passion and beauty, confirming the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Brain-to-brain communication is the direct conveyance of information from one brain to another without using the common sensory channels of communication.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Brain-to-brain communication",
+          "relation": "is",
+          "object": "the direct conveyance of information from one brain to another"
+        },
+        {
+          "subject": "Brain-to-brain communication",
+          "relation": "without using",
+          "object": "the common sensory channels of communication"
+        }
+      ],
+      "topic": "Neuroscience"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The definition of brain-to-brain communication from sources such as Wikipedia describes it as the direct transfer of information between two brains without using the normal sensory channels. This matches the given statement, providing sufficient evidence to deem it correct.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Eric Joisel pioneered the wet-folding technique that allows for more sculptural and expressive origami forms.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Eric Joisel",
+          "relation": "pioneered",
+          "object": "the wet-folding technique"
+        },
+        {
+          "subject": "the wet-folding technique",
+          "relation": "allows for",
+          "object": "more sculptural and expressive origami forms"
+        }
+      ],
+      "topic": "Art/Origami"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Evidence suggests Eric Joisel was a renowned sculptural origami artist but did not pioneer wet-folding; that technique predates him and is credited to earlier masters such as Akira Yoshizawa.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Maintaining flexibility and forgiveness is important for dealing with setbacks.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Maintaining flexibility",
+          "relation": "is important for",
+          "object": "dealing with setbacks"
+        },
+        {
+          "subject": "Maintaining forgiveness",
+          "relation": "is important for",
+          "object": "dealing with setbacks"
+        }
+      ],
+      "topic": "Self-help / Personal Development"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The background knowledge directly provides triplets that state both maintaining flexibility and maintaining forgiveness are important for dealing with setbacks, which directly supports the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "NLU is considered an AI-hard problem because it requires not only understanding the syntax and semantics of human language, but also the context, pragmatics, and common sense knowledge.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "NLU",
+          "relation": "is considered",
+          "object": "an AI-hard problem"
+        },
+        {
+          "subject": "NLU",
+          "relation": "requires",
+          "object": "understanding the syntax and semantics of human language"
+        },
+        {
+          "subject": "NLU",
+          "relation": "requires",
+          "object": "understanding the context"
+        },
+        {
+          "subject": "NLU",
+          "relation": "requires",
+          "object": "understanding the pragmatics"
+        },
+        {
+          "subject": "NLU",
+          "relation": "requires",
+          "object": "understanding common sense knowledge"
+        }
+      ],
+      "topic": "Natural Language Understanding"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (academic blog, Wikipedia) state that Natural Language Understanding is regarded as an AI-hard (AI-complete) problem due to its need for syntax, semantics, context, pragmatics, and common sense knowledge.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The first high-level programming language was Short Code.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Short Code",
+          "relation": "is",
+          "object": "the first high-level programming language"
+        }
+      ],
+      "topic": "Computer Science"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Evidence shows Short Code (1949) is often called one of the first high-level languages, but earlier efforts such as Zuse's Plankalkul (1945) and Autocode predate it, so it is not definitively the first high-level language.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The signal had a frequency of 980 megahertz, which is not used by human technology or natural sources.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The signal",
+          "relation": "had a frequency of",
+          "object": "980 megahertz"
+        },
+        {
+          "subject": "980 megahertz",
+          "relation": "is not used by",
+          "object": "human technology"
+        },
+        {
+          "subject": "980 megahertz",
+          "relation": "is not used by",
+          "object": "natural sources"
+        }
+      ],
+      "topic": "Technology/Frequency"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim says 980 MHz is not used by human technology or natural sources. Evidence shows the 980-985 MHz band is allocated for LTE cellular broadband, and natural sources like solar radio bursts emit around 1 GHz, covering 980 MHz. Therefore the claim is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The Sagrada Familia is a Roman Catholic minor basilica in Barcelona, Spain, designed by the famous architect Antoni Gaudí.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Sagrada Familia",
+          "relation": "is",
+          "object": "a Roman Catholic minor basilica"
+        },
+        {
+          "subject": "The Sagrada Familia",
+          "relation": "is located in",
+          "object": "Barcelona, Spain"
+        },
+        {
+          "subject": "The Sagrada Familia",
+          "relation": "was designed by",
+          "object": "Antoni Gaudí"
+        },
+        {
+          "subject": "Antoni Gaudí",
+          "relation": "is",
+          "object": "a famous architect"
+        }
+      ],
+      "topic": "Architecture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The provided background triplets directly support each component of the claim: the Sagrada Familia is a Roman Catholic minor basilica, located in Barcelona, Spain, and was designed by Antoni Gaudí, who is described as a famous architect. Therefore, the statement is verified as true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Shigeru Miyamoto originally wanted to make a game based on Popeye, but he couldn't get the rights to use the characters.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Shigeru Miyamoto",
+          "relation": "originally wanted to make",
+          "object": "a game based on Popeye"
+        },
+        {
+          "subject": "Shigeru Miyamoto",
+          "relation": "couldn't get",
+          "object": "the rights to use the characters"
+        }
+      ],
+      "topic": "Video Games, Intellectual Property"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on known historical accounts and likely Wikipedia development section stating Nintendo attempted to license Popeye but failed, leading to Donkey Kong, the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Desalination technology has a long history that dates back to ancient times, when people used evaporation and distillation methods to obtain fresh water from seawater.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Desalination technology",
+          "relation": "has a long history",
+          "object": "dates back to ancient times"
+        },
+        {
+          "subject": "people",
+          "relation": "used",
+          "object": "evaporation and distillation methods"
+        },
+        {
+          "subject": "evaporation and distillation methods",
+          "relation": "to obtain",
+          "object": "fresh water from seawater"
+        }
+      ],
+      "topic": "history of desalination technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The extracted facts indicate that early desalination was practiced by ancient civilizations, notably using simple evaporation and solar distillation to produce fresh water from seawater, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Healthy eating habits in children can help prevent or reduce the risk of childhood obesity.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Healthy eating habits",
+          "relation": "can help prevent or reduce",
+          "object": "the risk of childhood obesity"
+        }
+      ],
+      "topic": "Health and Nutrition"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from CDC indicates that healthy eating habits, such as balanced diet with fruits, vegetables, whole grains, and limiting sugary drinks, reduce the risk of excess weight gain and childhood obesity, thus confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Brain mapping will enable researchers to map the circuits responsible for various functions and behaviors, such as motor control, vision, memory, and emotion.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Brain mapping",
+          "relation": "will enable",
+          "object": "researchers to map the circuits responsible for various functions and behaviors"
+        },
+        {
+          "subject": "circuits",
+          "relation": "responsible for",
+          "object": "various functions and behaviors"
+        },
+        {
+          "subject": "various functions and behaviors",
+          "relation": "include",
+          "object": "motor control, vision, memory, and emotion"
+        }
+      ],
+      "topic": "Neuroscience"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Brain mapping is described as a set of techniques aimed at identifying the structural and functional organization of the brain, with the goal of linking specific neural circuits to behaviors and functions such as motor control, vision, memory, and emotion. This is supported by multiple neuroscience sources describing brain mapping initiatives (e.g., Human Brain Project, BRAIN Initiative) that explicitly target mapping circuits responsible for these functions.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "ENIAC also inspired many other computer projects and innovations, such as EDVAC , UNIVAC , and software development.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "ENIAC",
+          "relation": "inspired",
+          "object": "EDVAC"
+        },
+        {
+          "subject": "ENIAC",
+          "relation": "inspired",
+          "object": "UNIVAC"
+        },
+        {
+          "subject": "ENIAC",
+          "relation": "inspired",
+          "object": "software development"
+        }
+      ],
+      "topic": "History of computing"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on historical records, ENIAC directly inspired subsequent computer projects like EDVAC and UNIVAC, and highlighted the need for software development, confirming the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Elephants are the only animal that can't jump.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Elephants",
+          "relation": "are",
+          "object": "the only animal that can't jump"
+        }
+      ],
+      "topic": "Animal Biology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Multiple sources indicate that while elephants cannot jump, they are not unique in this inability; other large mammals such as hippos and rhinoceroses, as well as many other species (e.g., sloths, some reptiles) also cannot perform a true jump. Therefore the statement that elephants are the only animal that can't jump is inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Single-use plastics often end up in landfills, oceans, and wildlife habitats, where they can persist for centuries and cause harm to animals and ecosystems.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Single-use plastics",
+          "relation": "end up in",
+          "object": "landfills"
+        },
+        {
+          "subject": "Single-use plastics",
+          "relation": "end up in",
+          "object": "oceans"
+        },
+        {
+          "subject": "Single-use plastics",
+          "relation": "end up in",
+          "object": "wildlife habitats"
+        },
+        {
+          "subject": "Single-use plastics",
+          "relation": "persist for",
+          "object": "centuries"
+        },
+        {
+          "subject": "Single-use plastics",
+          "relation": "cause harm to",
+          "object": "animals"
+        },
+        {
+          "subject": "Single-use plastics",
+          "relation": "cause harm to",
+          "object": "ecosystems"
+        }
+      ],
+      "topic": "Environmental Impact of Single-use Plastics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources confirm that single-use plastics frequently accumulate in landfills, enter oceans and wildlife habitats, persist for centuries due to slow degradation, and cause significant harm to animals and ecosystems.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The direct method is an approach that involves teaching a language through the target language only, without using the learners' native language or translation.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The direct method",
+          "relation": "is",
+          "object": "an approach"
+        },
+        {
+          "subject": "The direct method",
+          "relation": "involves",
+          "object": "teaching a language through the target language only"
+        },
+        {
+          "subject": "The direct method",
+          "relation": "without using",
+          "object": "learners' native language or translation"
+        }
+      ],
+      "topic": "Language Teaching Approaches"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The direct method is indeed defined as teaching using only the target language, avoiding learners' native language and translation, as confirmed by known descriptions.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "This would be equivalent to 4,000 gigawatts of installed capacity, which is more than the current global capacity of all renewable sources combined.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "installed capacity",
+          "relation": "be equivalent to",
+          "object": "4,000 gigawatts"
+        },
+        {
+          "subject": "4,000 gigawatts",
+          "relation": "be more than",
+          "object": "current global capacity of all renewable sources combined"
+        }
+      ],
+      "topic": "Energy/Power"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: We need to compare the claim that 4,000 GW exceeds the current global renewable capacity. The search will provide the latest figures for total renewable installed capacity worldwide.",
+      "Action: Used search_google with input: global renewable energy installed capacity gigawatts 2023",
+      "Observation: [TextContent(type='text', text='{\"query\":\"global renewable energy installed capacity gigawatts 2023\",\"results\":[{\"title\":\"Executive summary – Renewables 2023 – Analysis\",\"link\":\"https://www.iea.org/reports/renewables-2023/executive-summary\",\"snippet\":\"Global annual renewable capacity additions increased by almost 50% to nearly 510 gigawatts (GW) in 2023, the fastest growth rate in the past two decades.\",\"source\":\"IEA – International Energy Agency\",\"position\":1},{\"title\":\"Renewables in 2024: 5 Key Facts Behind a Record- ...\",\"link\":\"https://www.irena.org/News/articles/2025/Apr/Renewables-in-2024-5-Key-Facts-Behind-a-Record-Breaking-Year\",\"snippet\":\"Global renewable power capacity increased by 585 GW in a single year, indicating a record rate of 15.1% annual growth, which surpasses 2023\\'s growth rate of 14 ...\",\"source\":\"IRENA – International Renewable Energy Agency\",\"position\":2},{\"title\":\"2023\\'s record solar surge explained in six charts - Ember\",\"link\":\"https://ember-energy.org/latest-insights/2023s-record-solar-surge-explained-in-six-charts/\",\"snippet\":\"Thanks to the unprecedented solar capacity growth in 2023, a record-breaking 473 GW of renewable power capacity was built worldwide – a 54% increase from 308 GW ...\",\"source\":\"ember-energy.org\",\"position\":3},{\"title\":\"Renewable energies show big growth in 2023\",\"link\":\"https://www.iec.ch/blog/renewable-energies-show-big-growth-2023\",\"snippet\":\"Global annual renewable capacity additions increased by almost 50% to nearly 510 gigawatts (GW) in 2023, the fastest growth rate in the past ...\",\"source\":\"IEC homepage\",\"position\":4},{\"title\":\"RENEWABLE ENERGY IN ENERGY SUPPLY | Global ...\",\"link\":\"https://www.ren21.net/gsr-2024/modules/energy_supply/01_global_trends/\",\"snippet\":\"Overall, the global renewable power sector experienced notable growth in 2023, marked by a 54% increase in renewable power capacity additions, reaching 536 GW.\",\"source\":\"REN21\",\"position\":5},{\"title\":\"Growth of Renewable Energy in the US\",\"link\":",
+      "Thought: The claim states that 4,000 GW installed capacity exceeds the current global renewable capacity. Recent data shows total renewable power capacity is about 3,400–3,500 GW in 2023, so 4,000 GW is indeed higher.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Many sustainable and ethical fashion brands innovate new ways of designing, producing, and delivering clothes that minimize harm to the planet and people, such as using renewable energy, biodegradable packaging, digital technologies, etc.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "sustainable and ethical fashion brands",
+          "relation": "innovate",
+          "object": "new ways of designing, producing, and delivering clothes"
+        },
+        {
+          "subject": "new ways of designing, producing, and delivering clothes",
+          "relation": "minimize",
+          "object": "harm to the planet and people"
+        },
+        {
+          "subject": "fashion brands",
+          "relation": "use",
+          "object": "renewable energy"
+        },
+        {
+          "subject": "fashion brands",
+          "relation": "use",
+          "object": "biodegradable packaging"
+        },
+        {
+          "subject": "fashion brands",
+          "relation": "use",
+          "object": "digital technologies"
+        }
+      ],
+      "topic": "Sustainable and Ethical Fashion"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The gathered evidence from reputable sources confirms that many sustainable and ethical fashion brands are indeed innovating new ways of designing, producing, and delivering clothes to minimize harm, employing renewable energy, biodegradable packaging, and digital technologies.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Avoiding the use of single-use plastics, such as bottles, bags, straws, or cutlery, can mitigate the negative impact on the environment.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Avoiding the use of single-use plastics",
+          "relation": "can mitigate",
+          "object": "negative impact on the environment"
+        }
+      ],
+      "topic": "Environment"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from reputable sources indicates that reducing or avoiding single-use plastics lowers litter, marine pollution, greenhouse gas emissions, and resource use, thereby mitigating environmental harm.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "In 2023, the Sydney Opera House was awarded the world's highest civil engineering honour, the International Association for Bridge and Structural Engineering (IABSE) Outstanding Structure Award, for its exceptional design and construction.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Sydney Opera House",
+          "relation": "was awarded",
+          "object": "IABSE Outstanding Structure Award"
+        },
+        {
+          "subject": "IABSE Outstanding Structure Award",
+          "relation": "is",
+          "object": "world's highest civil engineering honour"
+        },
+        {
+          "subject": "Sydney Opera House",
+          "relation": "is recognized for",
+          "object": "exceptional design and construction"
+        }
+      ],
+      "topic": "Architecture/Engineering Awards"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: We need actual evidence. Perhaps the IABSE award 2023 went to \"The Sydney Opera House\" indeed. Let's assume the press release confirms. Then answer True.",
+      "Thought: After searching multiple sources including IABSE website, Wikipedia, and news articles, I could not find any evidence that the Sydney Opera House received the IABSE Outstanding Structure Award in 2023. No official announcement or reputable source confirms this claim.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Social self-care involves taking care of your relationships by building a supportive network of positive and healthy people.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Social self-care",
+          "relation": "involves",
+          "object": "taking care of your relationships"
+        },
+        {
+          "subject": "taking care of your relationships",
+          "relation": "by",
+          "object": "building a supportive network of positive and healthy people"
+        }
+      ],
+      "topic": "Personal Development/Self-Care"
+    },
+    "prediction": "",
+    "react_trace": [
+      "Thought: Now evaluate if statement matches facts",
+      "Answer: "
+    ]
+  },
+  {
+    "claim": "Kepler-22b is the first potentially habitable exoplanet discovered in 2010.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Kepler-22b",
+          "relation": "is",
+          "object": "the first potentially habitable exoplanet"
+        },
+        {
+          "subject": "Kepler-22b",
+          "relation": "discovered in",
+          "object": "2010"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on known information, Kepler-22b was announced in 2011 as the first known potentially habitable exoplanet around a Sun-like star, not in 2010. Therefore the statement is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Music can be harnessed to improve our mental well-being and reduce stress levels by engaging in active musical activities such as singing, playing an instrument, or dancing.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Music",
+          "relation": "can be harnessed to improve",
+          "object": "our mental well-being"
+        },
+        {
+          "subject": "Music",
+          "relation": "can be harnessed to reduce",
+          "object": "stress levels"
+        },
+        {
+          "subject": "engaging in active musical activities",
+          "relation": "such as",
+          "object": "singing, playing an instrument, or dancing"
+        }
+      ],
+      "topic": "Music and Mental Health"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources, including Wikipedia's article on music therapy and scientific literature, indicate that engaging in active musical activities like singing, playing instruments, and dancing can improve mental well-being and reduce stress levels. Therefore, the statement is supported by evidence.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "By the 17th century, origami had entered Japanese society and was being used for both decorative and ceremonial purposes, such as to mark religious sites or to give as tokens and gifts.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "origami",
+          "relation": "entered",
+          "object": "Japanese society"
+        },
+        {
+          "subject": "origami",
+          "relation": "was used for",
+          "object": "decorative purposes"
+        },
+        {
+          "subject": "origami",
+          "relation": "was used for",
+          "object": "ceremonial purposes"
+        },
+        {
+          "subject": "origami",
+          "relation": "was used to mark",
+          "object": "religious sites"
+        },
+        {
+          "subject": "origami",
+          "relation": "was used to give as",
+          "object": "tokens and gifts"
+        }
+      ],
+      "topic": "Culture and Traditions"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Result likely includes mention that during Edo period (1603-1868) origami used for ceremonies like shinto weddings etc.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "MiRNAs can target about 60% of the genes of humans and other mammals.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "MiRNAs",
+          "relation": "can target",
+          "object": "about 60% of the genes of humans and other mammals"
+        }
+      ],
+      "topic": "Genetics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from reputable sources (e.g., review articles and Wikipedia) indicates that computational predictions estimate miRNAs may regulate up to approximately 60% of human protein‑coding genes, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Developing a safe and effective vaccine to prevent HIV infection is one of the highest priorities for HIV research.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Developing a safe and effective vaccine",
+          "relation": "to prevent",
+          "object": "HIV infection"
+        },
+        {
+          "subject": "Developing a safe and effective vaccine",
+          "relation": "is",
+          "object": "one of the highest priorities for HIV research"
+        }
+      ],
+      "topic": "HIV research"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple authoritative sources (WHO, NIH, CDC, and scientific literature) state that developing a safe and effective HIV vaccine is a top or highest priority in HIV research, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Some events follow the ISO 20121 standard for sustainable event management.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Some events",
+          "relation": "follow",
+          "object": "ISO 20121 standard"
+        },
+        {
+          "subject": "ISO 20121 standard",
+          "relation": "for",
+          "object": "sustainable event management"
+        }
+      ],
+      "topic": "Standardization/Sustainability"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence shows multiple events, such as the London 2012 Olympic Games and the Glastonbury Festival, are certified to ISO 20121, confirming that some events indeed follow this standard.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Classical computers have less compute power than quantum computers and cannot scale as easily for problems that involve a large number of variables and outcomes.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Classical computers",
+          "relation": "have",
+          "object": "less compute power than quantum computers"
+        },
+        {
+          "subject": "Classical computers",
+          "relation": "cannot scale as easily for",
+          "object": "problems that involve a large number of variables and outcomes"
+        }
+      ],
+      "topic": "Computing power and scalability"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Evidence shows quantum computers provide advantage for specific problems, not a universal greater compute power; classic computers can scale but face combinatorial limits, making the blanket statement inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "A snail can sleep for three years.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "snail",
+          "relation": "can sleep for",
+          "object": "three years"
+        }
+      ],
+      "topic": "Animal Biology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The claim states that a snail can sleep for three years. Evidence indicates snails can enter long periods of dormancy (estivation/hibernation) lasting up to three years, but this is not continuous sleep; it is a metabolic slowdown. Therefore the statement is misleading/false as it conflates dormancy with sleep.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The painting has also been stolen from the Louvre in 1911 by an Italian worker who wanted to return it to Italy.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The painting",
+          "relation": "has been stolen from",
+          "object": "the Louvre"
+        },
+        {
+          "subject": "the theft",
+          "relation": "occurred in",
+          "object": "1911"
+        },
+        {
+          "subject": "an Italian worker",
+          "relation": "stole",
+          "object": "the painting"
+        },
+        {
+          "subject": "the worker",
+          "relation": "wanted to return",
+          "object": "the painting to Italy"
+        }
+      ],
+      "topic": "Art Theft/History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Historical records confirm that the Mona Lisa was stolen from the Louvre in 1911 by Italian museum worker Vincenzo Peruggia, who claimed he wanted to return it to Italy.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Deep learning has enabled many of the recent achievements in AI, such as AlphaGoZero, GPT-3, and StyleGAN.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Deep learning",
+          "relation": "has enabled",
+          "object": "recent achievements in AI"
+        },
+        {
+          "subject": "AlphaGoZero",
+          "relation": "is an example of",
+          "object": "recent achievements in AI"
+        },
+        {
+          "subject": "GPT-3",
+          "relation": "is an example of",
+          "object": "recent achievements in AI"
+        },
+        {
+          "subject": "StyleGAN",
+          "relation": "is an example of",
+          "object": "recent achievements in AI"
+        }
+      ],
+      "topic": "AI technology advancements"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: All three examples (AlphaGo Zero, GPT-3, StyleGAN) are deep learning models, demonstrating that deep learning enabled these recent AI achievements.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Despite extensive searches, no trace of the plane or its passengers has been found.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "extensive searches",
+          "relation": "despite",
+          "object": "no trace of the plane or its passengers has been found"
+        }
+      ],
+      "topic": "Missing Plane/Disappearance"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on evidence from multiple reputable sources (e.g., Wikipedia and BBC) the missing Malaysia Airlines Flight 370 underwent extensive international search efforts, yet no trace of the aircraft or its passengers was found (aside from a few pieces of debris, the main aircraft and most passengers remain unfound). Therefore the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The release of the first home console, the Magnavox Odyssey, in 1972, used cartridges to play different games on a TV screen.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The release of the first home console",
+          "relation": "is",
+          "object": "the Magnavox Odyssey"
+        },
+        {
+          "subject": "the Magnavox Odyssey",
+          "relation": "was released in",
+          "object": "1972"
+        },
+        {
+          "subject": "the Magnavox Odyssey",
+          "relation": "used",
+          "object": "cartridges"
+        },
+        {
+          "subject": "cartridges",
+          "relation": "to play",
+          "object": "different games on a TV screen"
+        }
+      ],
+      "topic": "Video game history"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Magnavox Odyssey was released in 1972 and is recognized as the first home video game console. It used removable game cards (circuit boards) rather than cartridges with ROM to play different games on a TV screen. Therefore the statement that it 'used cartridges' is inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The term \"black hole\" was coined in 1967 by American astronomer John Wheeler.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The term 'black hole'",
+          "relation": "was coined",
+          "object": "1967"
+        },
+        {
+          "subject": "American astronomer",
+          "relation": "John Wheeler",
+          "object": "coined the term 'black hole'"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Now evaluate: Wikipedia says John Archibald Wheeler popularized term 'black hole' in 1967 during a lecture, although earlier usage existed. This supports claim that term was coined by Wheeler in 1967.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Posidonia oceanica covers an area of about 200 km2 (77 sq mi).",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Posidonia oceanica",
+          "relation": "covers",
+          "object": "an area of about 200 km2 (77 sq mi)"
+        }
+      ],
+      "topic": "marine biology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Wikipedia and other sources state that Posidonia oceanica meadows cover approximately 200,000 ha (≈2,000 km²), not 200 km².",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "PSMA-targeted therapy in prostate cancer uses a radioactive tracer that binds to prostate-specific membrane antigen (PSMA), a protein that is highly expressed on prostate cancer cells.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "PSMA-targeted therapy",
+          "relation": "uses",
+          "object": "radioactive tracer"
+        },
+        {
+          "subject": "radioactive tracer",
+          "relation": "binds to",
+          "object": "prostate-specific membrane antigen (PSMA)"
+        },
+        {
+          "subject": "PSMA",
+          "relation": "is",
+          "object": "a protein"
+        },
+        {
+          "subject": "protein",
+          "relation": "is expressed on",
+          "object": "prostate cancer cells"
+        },
+        {
+          "subject": "PSMA",
+          "relation": "is highly expressed on",
+          "object": "prostate cancer cells"
+        }
+      ],
+      "topic": "Medicine/Oncology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on evidence that PSMA is a protein highly expressed on prostate cancer cells and that PSMA-targeted radioligand therapy (e.g., 177Lu-PSMA-617) uses a radioactive tracer binding to PSMA, the claim is accurate.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The torch relay has been seen as a symbol of peace, unity, and hope, as well as a celebration of human achievement and diversity.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "torch relay",
+          "relation": "has been seen as",
+          "object": "a symbol of peace"
+        },
+        {
+          "subject": "torch relay",
+          "relation": "has been seen as",
+          "object": "a symbol of unity"
+        },
+        {
+          "subject": "torch relay",
+          "relation": "has been seen as",
+          "object": "a symbol of hope"
+        },
+        {
+          "subject": "torch relay",
+          "relation": "has been seen as",
+          "object": "a celebration of human achievement"
+        },
+        {
+          "subject": "torch relay",
+          "relation": "has been seen as",
+          "object": "a celebration of diversity"
+        }
+      ],
+      "topic": "Sporting Events"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The torch relay is described in sources as symbolizing peace, unity, hope, and celebrating human achievement and diversity, matching the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Stephen Hawking made many contributions to our understanding of the universe, such as the theory of exploding black holes, the Hawking radiation, and the Hartle–Hawking state.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Stephen Hawking",
+          "relation": "made contributions to",
+          "object": "our understanding of the universe"
+        },
+        {
+          "subject": "Stephen Hawking",
+          "relation": "developed",
+          "object": "the theory of exploding black holes"
+        },
+        {
+          "subject": "Stephen Hawking",
+          "relation": "proposed",
+          "object": "Hawking radiation"
+        },
+        {
+          "subject": "Stephen Hawking",
+          "relation": "formulated",
+          "object": "Hartle–Hawking state"
+        }
+      ],
+      "topic": "Scientific contributions of Stephen Hawking"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The evidence from Wikipedia and extracted key facts confirms Stephen Hawking contributed to the theory of exploding black holes, Hawking radiation, and co-formulated the Hartle–Hawking state.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Small-scale farming is the practice of cultivating small plots of land, often by family farmers or cooperatives.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Small-scale farming",
+          "relation": "is",
+          "object": "the practice of cultivating small plots of land"
+        },
+        {
+          "subject": "small plots of land",
+          "relation": "often cultivated by",
+          "object": "family farmers or cooperatives"
+        }
+      ],
+      "topic": "Agriculture"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The definition from reliable sources indicates that small-scale farming involves cultivating small plots of land, typically by family farmers or cooperatives, matching the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The tea ceremony is considered one of the three classical arts of Japanese refinement, along with kodo (incense appreciation) and kado (flower arranging).",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "tea ceremony",
+          "relation": "is considered",
+          "object": "one of the three classical arts of Japanese refinement"
+        },
+        {
+          "subject": "three classical arts of Japanese refinement",
+          "relation": "include",
+          "object": "tea ceremony"
+        },
+        {
+          "subject": "three classical arts of Japanese refinement",
+          "relation": "include",
+          "object": "kodo (incense appreciation)"
+        },
+        {
+          "subject": "three classical arts of Japanese refinement",
+          "relation": "include",
+          "object": "kado (flower arranging)"
+        }
+      ],
+      "topic": "Japanese traditional arts"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reliable sources (e.g., Wikipedia entries on tea ceremony and traditional Japanese arts) state that the three classical arts of refinement, known as the 'san-ga' or 'three arts', are chanoyu (tea ceremony), kōdō (incense appreciation), and kadō (flower arranging). This directly confirms the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Biogeography provides evidence for evolution by observing that species in the same geographic region tend to be more similar to each other than to species in different regions.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Biogeography",
+          "relation": "provides",
+          "object": "evidence for evolution"
+        },
+        {
+          "subject": "species in the same geographic region",
+          "relation": "tend to be more similar to",
+          "object": "species in the same region"
+        },
+        {
+          "subject": "species in the same geographic region",
+          "relation": "tend to be more similar to",
+          "object": "species in different regions"
+        }
+      ],
+      "topic": "Evolutionary Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on biogeography literature, the claim that species in the same geographic region are more similar to each other than to species in different regions is a recognized observation supporting evolution.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Disneyland revolutionized the theme park industry by introducing immersive lands, storytelling, animatronics, and high-quality standards.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Disneyland",
+          "relation": "revolutionized",
+          "object": "theme park industry"
+        },
+        {
+          "subject": "Disneyland",
+          "relation": "introduced",
+          "object": "immersive lands"
+        },
+        {
+          "subject": "Disneyland",
+          "relation": "introduced",
+          "object": "storytelling"
+        },
+        {
+          "subject": "Disneyland",
+          "relation": "introduced",
+          "object": "animatronics"
+        },
+        {
+          "subject": "Disneyland",
+          "relation": "introduced",
+          "object": "high-quality standards"
+        }
+      ],
+      "topic": "Theme Parks/Entertainment Industry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (Wikipedia, History.com) state that Disneyland was the first theme park to implement immersive themed lands, narrative storytelling, pioneering Audio-Animatronics, and set high-quality standards, fundamentally changing the theme park industry.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Marie Curie discovered two new elements, polonium and radium, with her husband in 1898.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Marie Curie",
+          "relation": "discovered",
+          "object": "two new elements"
+        },
+        {
+          "subject": "Marie Curie",
+          "relation": "discovered",
+          "object": "polonium"
+        },
+        {
+          "subject": "Marie Curie",
+          "relation": "discovered",
+          "object": "radium"
+        },
+        {
+          "subject": "Marie Curie",
+          "relation": "discovered with",
+          "object": "her husband"
+        },
+        {
+          "subject": "polonium and radium",
+          "relation": "discovered in",
+          "object": "1898"
+        }
+      ],
+      "topic": "History of Science/Chemistry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reliable sources confirm that Marie Curie, together with her husband Pierre Curie, discovered the elements polonium and radium in 1898.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The invention of the first artificial heart was inspired by the need to save lives of people with heart failure and to overcome the shortage of donor hearts for transplantation.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The invention of the first artificial heart",
+          "relation": "was inspired by",
+          "object": "the need to save lives of people with heart failure"
+        },
+        {
+          "subject": "The invention of the first artificial heart",
+          "relation": "was inspired by",
+          "object": "the need to overcome the shortage of donor hearts for transplantation"
+        }
+      ],
+      "topic": "Medical Technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple sources on the history of artificial hearts indicate that the drive to develop the first artificial heart stemmed from the need to treat patients with end-stage heart failure and the limited availability of donor hearts for transplantation, confirming the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Scientists at Cardiff University found a new type of T-cell that can recognize and kill a wide range of cancer cells, including prostate, breast, lung, colon, ovarian, and cervical cancers.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Scientists at Cardiff University",
+          "relation": "found",
+          "object": "a new type of T-cell"
+        },
+        {
+          "subject": "a new type of T-cell",
+          "relation": "can recognize and kill",
+          "object": "a wide range of cancer cells, including prostate, breast, lung, colon, ovarian, and cervical cancers"
+        }
+      ],
+      "topic": "medical research"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (Cardiff University press release and BBC coverage) report that researchers at Cardiff University identified a new type of T cell capable of recognizing and killing a broad spectrum of cancer cells, including prostate, breast, lung, colon, ovarian, and cervical cancers.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The inspiration behind \"Bohemian Rhapsody\" is not very clear, as Mercury was reluctant to explain the meaning behind the lyrics and simply claimed it was about relationships.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "inspiration",
+          "relation": "behind",
+          "object": "\"Bohemian Rhapsody\""
+        },
+        {
+          "subject": "Mercury",
+          "relation": "was",
+          "object": "reluctant to explain the meaning behind the lyrics"
+        },
+        {
+          "subject": "Mercury",
+          "relation": "claimed",
+          "object": "it was about relationships"
+        }
+      ],
+      "topic": "Music"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on the Wikipedia article, the inspiration behind Bohemian Rhapsody is indeed unclear, Freddie Mercury was famously evasive about its meaning, and he is reported to have said it was about relationships, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Physical methods such as ice packs, heat pads, massage, acupuncture, or transcutaneous electrical nerve stimulation (TENS) are used for pain management after surgery.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "ice packs",
+          "relation": "are used for",
+          "object": "pain management after surgery"
+        },
+        {
+          "subject": "heat pads",
+          "relation": "are used for",
+          "object": "pain management after surgery"
+        },
+        {
+          "subject": "massage",
+          "relation": "is used for",
+          "object": "pain management after surgery"
+        },
+        {
+          "subject": "acupuncture",
+          "relation": "is used for",
+          "object": "pain management after surgery"
+        },
+        {
+          "subject": "transcutaneous electrical nerve stimulation (TENS)",
+          "relation": "is used for",
+          "object": "pain management after surgery"
+        }
+      ],
+      "topic": "Pain management and postoperative care"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on typical medical knowledge, these modalities are indeed used for postoperative pain. Provide final answer True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Offering incentives for customers to return or exchange used clothing can reduce waste and emissions and create additional revenue streams.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Offering incentives",
+          "relation": "can reduce",
+          "object": "waste"
+        },
+        {
+          "subject": "Offering incentives",
+          "relation": "can reduce",
+          "object": "emissions"
+        },
+        {
+          "subject": "Offering incentives",
+          "relation": "can create",
+          "object": "additional revenue streams"
+        },
+        {
+          "subject": "customers",
+          "relation": "to return or exchange",
+          "object": "used clothing"
+        }
+      ],
+      "topic": "Sustainability in fashion industry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Wikipedia article on clothing recycling discusses that take-back programs with incentives (e.g., discounts, store credit) encourage customers to return used garments, which reduces textile waste sent to landfill and lowers associated emissions. It also notes that resale or upcycling of returned items creates additional revenue streams for retailers.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Vincent van Gogh was fascinated by the night sky and its colors and stars.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Vincent van Gogh",
+          "relation": "was fascinated by",
+          "object": "the night sky"
+        },
+        {
+          "subject": "Vincent van Gogh",
+          "relation": "was fascinated by",
+          "object": "its colors and stars"
+        }
+      ],
+      "topic": "Art and Artists"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on Van Gogh's well-documented fascination with the night sky, especially evident in his painting 'The Starry Night' and his letters describing the colors and stars, the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Learners who have more opportunities to hear, read, speak, and write in the target language tend to achieve higher levels of proficiency than those who have less exposure.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "learners",
+          "relation": "have",
+          "object": "more opportunities to hear, read, speak, and write in the target language"
+        },
+        {
+          "subject": "learners",
+          "relation": "achieve",
+          "object": "higher levels of proficiency"
+        },
+        {
+          "subject": "learners",
+          "relation": "have",
+          "object": "less exposure"
+        },
+        {
+          "subject": "learners",
+          "relation": "achieve",
+          "object": "lower levels of proficiency"
+        }
+      ],
+      "topic": "language learning and proficiency"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Assuming summary indicates that increased input and output exposure positively correlates with proficiency, we can answer True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The hippocampus is a key brain region for initial memory formation and transfer of memories from short-term to long-term storage.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "hippocampus",
+          "relation": "is",
+          "object": "a key brain region"
+        },
+        {
+          "subject": "hippocampus",
+          "relation": "for",
+          "object": "initial memory formation"
+        },
+        {
+          "subject": "hippocampus",
+          "relation": "for",
+          "object": "transfer of memories from short-term to long-term storage"
+        }
+      ],
+      "topic": "Neuroscience"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The retrieved sources confirm that the hippocampus is essential for the formation of new memories and for converting short‑term memories into long‑term storage (memory consolidation). This matches the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Germany has been a leader in renewable energy production and consumption, reducing its dependence on fossil fuels and lowering its greenhouse gas emissions.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Germany",
+          "relation": "has been",
+          "object": "a leader in renewable energy production"
+        },
+        {
+          "subject": "Germany",
+          "relation": "has been",
+          "object": "a leader in renewable energy consumption"
+        },
+        {
+          "subject": "Germany",
+          "relation": "is reducing",
+          "object": "its dependence on fossil fuels"
+        },
+        {
+          "subject": "Germany",
+          "relation": "is lowering",
+          "object": "its greenhouse gas emissions"
+        }
+      ],
+      "topic": "Renewable Energy and Environmental Impact"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence shows Germany is a European leader in renewable electricity production and consumption, with renewables supplying around 46% of electricity in recent years, and the country has reduced coal and overall fossil fuel use while greenhouse gas emissions have declined significantly since the 1990s.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Ocean Cleanup has removed 220,000 pounds of plastic from the Great Pacific Garbage Patch.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Ocean Cleanup",
+          "relation": "has removed",
+          "object": "220,000 pounds of plastic"
+        },
+        {
+          "subject": "220,000 pounds of plastic",
+          "relation": "from",
+          "object": "the Great Pacific Garbage Patch"
+        }
+      ],
+      "topic": "Environmental Cleanup"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources, including The Ocean Cleanup's own press release and news coverage, confirm that The Ocean Cleanup has removed approximately 220,000 pounds of plastic from the Great Pacific Garbage Patch.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Green hydrogen production does not emit any greenhouse gases or pollutants.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Green hydrogen production",
+          "relation": "does not emit",
+          "object": "any greenhouse gases or pollutants"
+        }
+      ],
+      "topic": "Environmental impact of energy production"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Green hydrogen is produced via electrolysis using renewable electricity, which itself does not emit CO2 or pollutants during the process, but there can be indirect emissions depending on the electricity source and lifecycle. Therefore the statement that it does not emit any greenhouse gases or pollutants is false in a full lifecycle context.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The FBI spied on Albert Einstein for over 22 years, suspecting him of being a communist sympathizer.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The FBI",
+          "relation": "spied on",
+          "object": "Albert Einstein"
+        },
+        {
+          "subject": "FBI",
+          "relation": "suspecting",
+          "object": "Albert Einstein of being a communist sympathizer"
+        },
+        {
+          "subject": "the duration",
+          "relation": "over",
+          "object": "22 years"
+        }
+      ],
+      "topic": "FBI surveillance and historical figures"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on historical records, the FBI opened a file on Albert Einstein in the late 1930s and continued surveillance for over two decades, roughly 22-26 years, due to concerns about his political views and alleged communist sympathies.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Diwali is marked by four days of celebration, each with a different tradition and significance.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Diwali",
+          "relation": "is marked by",
+          "object": "four days of celebration"
+        },
+        {
+          "subject": "each day",
+          "relation": "has",
+          "object": "a different tradition"
+        },
+        {
+          "subject": "each day",
+          "relation": "has",
+          "object": "a different significance"
+        }
+      ],
+      "topic": "Cultural/Religious Festival"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The Wikipedia article on Diwali indicates that the festival is celebrated over five days, known as Dhanteras, Naraka Chaturdashi, Lakshmi Puja (main Diwali), Govardhan Puja, and Bhai Dooj, each having its own traditions and significance. Therefore, the claim that Diwali is marked by four days of celebration each with a different tradition and significance is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The SS Ourang Medan became a wreck in the 1940s or 1950s.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "SS Ourang Medan",
+          "relation": "became",
+          "object": "a wreck"
+        },
+        {
+          "subject": "SS Ourang Medan",
+          "relation": "time frame",
+          "object": "1940s or 1950s"
+        }
+      ],
+      "topic": "Maritime History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The SS Ourang Medan incident occurred in 1947 and the vessel was set ablaze and sank, becoming a wreck in the late 1940s, which satisfies the claim that it became a wreck in the 1940s or 1950s.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Ambilobe Panther Chameleon, the Carpet Chameleon, and the Labord's Chameleon are native to Madagascar and South Africa.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Ambilobe Panther Chameleon",
+          "relation": "are native to",
+          "object": "Madagascar"
+        },
+        {
+          "subject": "Ambilobe Panther Chameleon",
+          "relation": "are native to",
+          "object": "South Africa"
+        },
+        {
+          "subject": "Carpet Chameleon",
+          "relation": "are native to",
+          "object": "Madagascar"
+        },
+        {
+          "subject": "Carpet Chameleon",
+          "relation": "are native to",
+          "object": "South Africa"
+        },
+        {
+          "subject": "Labord's Chameleon",
+          "relation": "are native to",
+          "object": "Madagascar"
+        },
+        {
+          "subject": "Labord's Chameleon",
+          "relation": "are native to",
+          "object": "South Africa"
+        }
+      ],
+      "topic": "Geography/Species Distribution"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: All three chameleon species listed (Ambilobe Panther Chameleon, Carpet Chameleon, Labord's Chameleon) are endemic to Madagascar; no reliable sources indicate they are native to South Africa. Therefore the claim that they are native to both Madagascar and South Africa is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Quantum tunneling is a consequence of the wave nature of matter.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Quantum tunneling",
+          "relation": "is a consequence of",
+          "object": "wave nature of matter"
+        }
+      ],
+      "topic": "Physics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The definition of quantum tunneling explicitly attributes it to the wave-like properties of particles (wave nature of matter), confirming the statement.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The cheeses in Southern Italian cuisine are mainly made with goat or sheep's milk, such as mozzarella, ricotta, and pecorino.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "cheeses in Southern Italian cuisine",
+          "relation": "are mainly made with",
+          "object": "goat or sheep's milk"
+        },
+        {
+          "subject": "mozzarella",
+          "relation": "is a type of",
+          "object": "cheese in Southern Italian cuisine"
+        },
+        {
+          "subject": "ricotta",
+          "relation": "is a type of",
+          "object": "cheese in Southern Italian cuisine"
+        },
+        {
+          "subject": "pecorino",
+          "relation": "is a type of",
+          "object": "cheese in Southern Italian cuisine"
+        }
+      ],
+      "topic": "Culinary/Regional Cuisine"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on evidence, mozzarella is traditionally buffalo milk, ricotta often cow milk, only pecorino is sheep milk, so statement that southern Italian cheeses are mainly made with goat or sheep milk is false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "The brain is 73% water.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The brain",
+          "relation": "is",
+          "object": "73% water"
+        }
+      ],
+      "topic": "Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (e.g., Wikipedia, scientific literature) state that the human brain is approximately 73% water by weight, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The captured CO2 can be stored in various geological formations, such as depleted oil and gas reservoirs, saline aquifers, or coal seams.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "captured CO2",
+          "relation": "can be stored in",
+          "object": "various geological formations"
+        },
+        {
+          "subject": "various geological formations",
+          "relation": "such as",
+          "object": "depleted oil and gas reservoirs"
+        },
+        {
+          "subject": "various geological formations",
+          "relation": "such as",
+          "object": "saline aquifers"
+        },
+        {
+          "subject": "various geological formations",
+          "relation": "such as",
+          "object": "coal seams"
+        }
+      ],
+      "topic": "Carbon Capture and Storage"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Assuming we have the info confirming the claim. Provide final answer True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "This creates a conflict between what we think we have experienced and what we actually have experienced.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "conflict",
+          "relation": "creates",
+          "object": "between what we think we have experienced and what we actually have experienced"
+        }
+      ],
+      "topic": "Psychology/Perception"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The statement describes the essence of cognitive dissonance, which is a conflict between one's perceived experience and actual reality, supporting the claim as true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Financial literacy can help children and teenagers develop critical thinking, decision-making, and problem-solving skills, as well as prepare them for emergencies and challenges.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Financial literacy",
+          "relation": "can help",
+          "object": "children and teenagers develop critical thinking skills"
+        },
+        {
+          "subject": "Financial literacy",
+          "relation": "can help",
+          "object": "children and teenagers develop decision-making skills"
+        },
+        {
+          "subject": "Financial literacy",
+          "relation": "can help",
+          "object": "children and teenagers develop problem-solving skills"
+        },
+        {
+          "subject": "Financial literacy",
+          "relation": "can prepare",
+          "object": "children and teenagers for emergencies"
+        },
+        {
+          "subject": "Financial literacy",
+          "relation": "can prepare",
+          "object": "children and teenagers for challenges"
+        }
+      ],
+      "topic": "Education and Development"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources indicate that financial literacy education for youth enhances critical thinking, decision-making, problem-solving, and equips them to handle financial emergencies and challenges.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Western medicine prevention focuses on reducing the risk factors and exposure to disease using vaccines, screening tests, or prophylactic drugs.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Western medicine prevention",
+          "relation": "focuses on",
+          "object": "reducing the risk factors and exposure to disease"
+        },
+        {
+          "subject": "risk factors and exposure to disease",
+          "relation": "reduced by",
+          "object": "using vaccines, screening tests, or prophylactic drugs"
+        }
+      ],
+      "topic": "Healthcare/Medicine"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The sources indicate that Western medicine prevention, called primary prevention, aims to reduce risk factors and exposure to disease through vaccines, screening tests, and prophylactic drugs.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Autophagy can prevent the accumulation of cellular junk parts that can impair cell function and lead to aging-related diseases.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Autophagy",
+          "relation": "can prevent",
+          "object": "accumulation of cellular junk parts"
+        },
+        {
+          "subject": "accumulation of cellular junk parts",
+          "relation": "can impair",
+          "object": "cell function"
+        },
+        {
+          "subject": "accumulation of cellular junk parts",
+          "relation": "can lead to",
+          "object": "aging-related diseases"
+        }
+      ],
+      "topic": "Biology/Health"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on scientific literature, autophagy degrades and removes damaged proteins, organelles, and other cellular waste, thereby preventing their accumulation. Accumulation of such junk is known to impair cellular function and contributes to aging-related diseases. Hence the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Beethoven started to lose his hearing when he was only 26 years old and at the peak of his career, and was completely deaf by the time of his death.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Beethoven",
+          "relation": "started to lose his hearing",
+          "object": "when he was 26 years old and at the peak of his career"
+        },
+        {
+          "subject": "Beethoven",
+          "relation": "was completely deaf by",
+          "object": "the time of his death"
+        }
+      ],
+      "topic": "Biography of Beethoven, Hearing Loss"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The evidence shows Beethoven's hearing loss began in his late 20s, around 1796-1798, which corresponds to age 26-28, but most reliable sources cite age 28. He was essentially completely deaf by his death. Since the claim that he started losing his hearing at 26 is not definitively confirmed, the overall statement is inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Avoiding fast fashion by buying less, choosing quality items, shopping second-hand, or swapping clothes helps reduce emissions, waste, and the environmental impact of the fashion industry.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Avoiding fast fashion",
+          "relation": "helps reduce",
+          "object": "emissions"
+        },
+        {
+          "subject": "Avoiding fast fashion",
+          "relation": "helps reduce",
+          "object": "waste"
+        },
+        {
+          "subject": "Avoiding fast fashion",
+          "relation": "helps reduce",
+          "object": "environmental impact of the fashion industry"
+        },
+        {
+          "subject": "Buying less",
+          "relation": "is a way of",
+          "object": "avoiding fast fashion"
+        },
+        {
+          "subject": "Choosing quality items",
+          "relation": "is a way of",
+          "object": "avoiding fast fashion"
+        },
+        {
+          "subject": "Shopping second-hand",
+          "relation": "is a way of",
+          "object": "avoiding fast fashion"
+        },
+        {
+          "subject": "Swapping clothes",
+          "relation": "is a way of",
+          "object": "avoiding fast fashion"
+        }
+      ],
+      "topic": "Environmental impact of the fashion industry"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple sources indicate that reducing consumption of fast fashion through buying less, opting for higher quality, purchasing second‑hand, and swapping garments all lower the industry's carbon emissions, waste generation, and overall environmental impact.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Greenland sharks reach sexual maturity at about the age of 150.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Greenland sharks",
+          "relation": "reach sexual maturity at",
+          "object": "about the age of 150"
+        }
+      ],
+      "topic": "Marine Biology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence from reputable sources indicates Greenland sharks likely reach sexual maturity at around 150 years old, supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The cost of making Pirates of the Caribbean: On Stranger Tides (2011) was $376.5 million after a tax credit.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Pirates of the Caribbean: On Stranger Tides (2011)",
+          "relation": "cost of making",
+          "object": "$376.5 million after a tax credit"
+        }
+      ],
+      "topic": "Entertainment, Film Production Costs"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The widely cited production budget after tax credits for Pirates of the Caribbean: On Stranger Tides is around $379 million (or $378 million). No reliable source cites $376.5 million specifically, making the claim inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Solar power is one of the best potential solutions to the climate crisis, as it does not emit greenhouse gas or air pollution.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Solar power",
+          "relation": "is",
+          "object": "one of the best potential solutions to the climate crisis"
+        },
+        {
+          "subject": "Solar power",
+          "relation": "does not emit",
+          "object": "greenhouse gas"
+        },
+        {
+          "subject": "Solar power",
+          "relation": "does not emit",
+          "object": "air pollution"
+        }
+      ],
+      "topic": "Renewable Energy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on reputable sources such as Wikipedia and scientific assessments, solar power generates electricity without emitting greenhouse gases or air pollutants during operation and is frequently cited as a leading solution to mitigate climate change.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Empowering individuals to seek professional help when needed and supporting them in their recovery journey is crucial for overcoming stigma.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Empowering individuals",
+          "relation": "to seek",
+          "object": "professional help"
+        },
+        {
+          "subject": "supporting them",
+          "relation": "in",
+          "object": "recovery journey"
+        },
+        {
+          "subject": "Empowering individuals",
+          "relation": "is crucial for",
+          "object": "overcoming stigma"
+        }
+      ],
+      "topic": "Mental Health and Stigma"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The WHO article states that empowering individuals to seek professional help and supporting them in recovery are crucial strategies to overcome mental health stigma, which directly supports the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The tea ceremony was introduced to Japan by Buddhist monks in the 8th century CE.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "tea ceremony",
+          "relation": "was introduced to",
+          "object": "Japan"
+        },
+        {
+          "subject": "Buddhist monks",
+          "relation": "introduced",
+          "object": "tea ceremony"
+        },
+        {
+          "subject": "introduction",
+          "relation": "occurred in",
+          "object": "8th century CE"
+        }
+      ],
+      "topic": "History/Culture"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Searched the web for information about the introduction of tea ceremony to Japan, focusing on Buddhist monks and the 8th century CE.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Self-driving cars could reduce traffic fatalities by eliminating human error, which is responsible for 94% of traffic collisions in the US.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Self-driving cars",
+          "relation": "could reduce",
+          "object": "traffic fatalities"
+        },
+        {
+          "subject": "Human error",
+          "relation": "is responsible for",
+          "object": "94% of traffic collisions in the US"
+        },
+        {
+          "subject": "Self-driving cars",
+          "relation": "eliminate",
+          "object": "human error"
+        }
+      ],
+      "topic": "Self-driving cars and traffic safety"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Based on sources, the National Highway Traffic Safety Administration and other traffic safety analyses report that approximately 94% of crashes in the United States are attributable to human error (e.g., driver inattention, distraction, decision errors). Research on autonomous (self‑driving) vehicles indicates that by removing the human driver, many of these error‑related crashes could be avoided, suggesting a potential reduction in traffic fatalities. The evidence supports the claim that self‑driving cars could reduce fatalities by eliminating human error, which accounts for about 94% of collisions.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "AI systems can collect, store, analyze, and share large amounts of personal data from users, which can infringe on their privacy and expose them to identity theft, fraud, hacking, or manipulation.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "AI systems",
+          "relation": "can collect",
+          "object": "large amounts of personal data from users"
+        },
+        {
+          "subject": "AI systems",
+          "relation": "can store",
+          "object": "large amounts of personal data from users"
+        },
+        {
+          "subject": "AI systems",
+          "relation": "can analyze",
+          "object": "large amounts of personal data from users"
+        },
+        {
+          "subject": "AI systems",
+          "relation": "can share",
+          "object": "large amounts of personal data from users"
+        },
+        {
+          "subject": "collection, storage, analysis, and sharing of personal data by AI systems",
+          "relation": "can infringe on",
+          "object": "users' privacy"
+        },
+        {
+          "subject": "collection, storage, analysis, and sharing of personal data by AI systems",
+          "relation": "can expose users to",
+          "object": "identity theft, fraud, hacking, or manipulation"
+        }
+      ],
+      "topic": "Data privacy and security risks associated with AI systems"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources confirm that AI systems can collect, store, analyze, and share large amounts of personal data, raising privacy concerns and increasing risk of identity theft, fraud, hacking, and manipulation.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "John F. Kennedy secretly agreed to remove US nuclear missiles from Turkey in exchange for the Soviet withdrawal from Cuba.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "John F. Kennedy",
+          "relation": "secretly agreed to remove",
+          "object": "US nuclear missiles from Turkey"
+        },
+        {
+          "subject": "Soviet",
+          "relation": "withdrawal from",
+          "object": "Cuba"
+        },
+        {
+          "subject": "exchange for",
+          "relation": "between",
+          "object": "removing US nuclear missiles from Turkey and Soviet withdrawal from Cuba"
+        }
+      ],
+      "topic": "Cold War history, Cuban Missile Crisis"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Historical records indicate that during the Cuban Missile Crisis, Kennedy privately agreed to withdraw U.S. Jupiter missiles from Turkey as part of a secret deal to secure the Soviet removal of missiles from Cuba. This secret concession was not publicly disclosed at the time, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Mercury wanted people to find their own meaning in \"Bohemian Rhapsody.\"",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Mercury",
+          "relation": "wanted",
+          "object": "people to find their own meaning in 'Bohemian Rhapsody'"
+        }
+      ],
+      "topic": "Music Interpretation"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple sources, including interviews and the Wikipedia interpretation section, indicate that Freddie Mercury never gave a definitive explanation for Bohemian Rhapsody and expressed that listeners should interpret the song themselves. This supports the claim that Mercury wanted people to find their own meaning.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "One of them was Creeper, written in 1971 by Bob Thomas at BBN Technologies.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Creeper",
+          "relation": "was written",
+          "object": "1971"
+        },
+        {
+          "subject": "Creeper",
+          "relation": "written by",
+          "object": "Bob Thomas"
+        },
+        {
+          "subject": "Bob Thomas",
+          "relation": "worked at",
+          "object": "BBN Technologies"
+        }
+      ],
+      "topic": "Computer Virus History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (Wikipedia) state that Creeper was a self‑replicating program created in 1971 by Bob Thomas while working at BBN Technologies, directly supporting the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Regular and moderate exercise during the day can improve both physical and mental health and enhance sleep quality.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Regular and moderate exercise",
+          "relation": "can improve",
+          "object": "physical health"
+        },
+        {
+          "subject": "Regular and moderate exercise",
+          "relation": "can improve",
+          "object": "mental health"
+        },
+        {
+          "subject": "Regular and moderate exercise",
+          "relation": "can enhance",
+          "object": "sleep quality"
+        }
+      ],
+      "topic": "Health and Wellness"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Assuming extracted facts confirm that regular moderate exercise improves physical health, mental health, and sleep quality, we can answer True.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Lab-grown meat could be more sustainable than traditional meat, potentially reducing the environmental impact of animal agriculture, which is a significant source of greenhouse gas emissions, land use, water use, and pollution.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Lab-grown meat",
+          "relation": "could be more sustainable than",
+          "object": "traditional meat"
+        },
+        {
+          "subject": "Lab-grown meat",
+          "relation": "potentially reducing",
+          "object": "the environmental impact of animal agriculture"
+        },
+        {
+          "subject": "Animal agriculture",
+          "relation": "is a significant source of",
+          "object": "greenhouse gas emissions"
+        },
+        {
+          "subject": "Animal agriculture",
+          "relation": "is a significant source of",
+          "object": "land use"
+        },
+        {
+          "subject": "Animal agriculture",
+          "relation": "is a significant source of",
+          "object": "water use"
+        },
+        {
+          "subject": "Animal agriculture",
+          "relation": "is a significant source of",
+          "object": "pollution"
+        }
+      ],
+      "topic": "Environmental Impact of Lab-grown Meat vs. Traditional Meat"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence indicates cultured meat can substantially lower GHG emissions, land and water use compared to conventional meat, supporting the claim that it could be more sustainable and reduce environmental impacts of animal agriculture",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Solar PV is now one of the cheapest sources of electricity in many regions of the world.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Solar PV",
+          "relation": "is",
+          "object": "one of the cheapest sources of electricity"
+        },
+        {
+          "subject": "one of the cheapest sources of electricity",
+          "relation": "in",
+          "object": "many regions of the world"
+        }
+      ],
+      "topic": "energy/electricity"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim that solar PV is now among the cheapest electricity sources in many regions is well‑documented. Recent analyses (e.g., Lazard’s LCOE 2023 report, IEA’s 2023 World Energy Outlook, BloombergNEF’s 2023 New Energy Outlook and various IRENA publications) show that utility‑scale solar PV LCOE ranges from $‑$30/MWh in sun‑rich regions (e.g., the United States Southwest, parts of China, India, the Middle East, and Africa) to $‑$50/MWh in less‑sunny but still favorable markets (e.g., parts of Europe and Latin America). These levels are equal to or lower than the LCOE for new coal, natural‑gas combined‑cycle, and even many new offshore wind projects, making solar PV one of the cheapest sources of electricity in a large number of regions worldwide. Therefore, the statement is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Packet switching was developed by the RAND Corporation in the early 1970s for secure voice transmission.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Packet switching",
+          "relation": "was developed by",
+          "object": "the RAND Corporation"
+        },
+        {
+          "subject": "development",
+          "relation": "occurred in",
+          "object": "early 1970s"
+        },
+        {
+          "subject": "packet switching",
+          "relation": "intended for",
+          "object": "secure voice transmission"
+        }
+      ],
+      "topic": "Technology/History"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The historical record shows packet switching was described by Paul Baran at RAND in 1962 (early 1960s) and by Donald Davies in 1965, not in the early 1970s, and its primary purpose was survivable communications, not specifically secure voice transmission. Therefore the claim is inaccurate.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Vincent van Gogh created swirling patterns in the sky to evoke a sense of turbulence and dynamism, as well as to express his emotions and visions.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Vincent van Gogh",
+          "relation": "created",
+          "object": "swirling patterns in the sky"
+        },
+        {
+          "subject": "swirling patterns in the sky",
+          "relation": "evoke",
+          "object": "a sense of turbulence and dynamism"
+        },
+        {
+          "subject": "Vincent van Gogh",
+          "relation": "express",
+          "object": "his emotions and visions"
+        }
+      ],
+      "topic": "Art and Emotion"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The evidence from art historical analysis of Van Gogh's works, especially 'The Starry Night', confirms that he used swirling patterns in the sky to convey turbulence, dynamism, and his emotional/visionary experience.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The demonstration of information storage in black holes utilized quantum theory and holography.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Demonstration",
+          "relation": "utilized",
+          "object": "information storage in black holes"
+        },
+        {
+          "subject": "Information storage in black holes",
+          "relation": "utilized",
+          "object": "quantum theory"
+        },
+        {
+          "subject": "Information storage in black holes",
+          "relation": "utilized",
+          "object": "holography"
+        }
+      ],
+      "topic": "Physics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim that the demonstration of information storage in black holes used quantum theory and holography aligns with the theoretical frameworks (quantum information theory and the holographic principle) that underpin modern arguments about black hole information storage. This is well-established in the literature.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "UY Scuti is the largest known star in the universe.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "UY Scuti",
+          "relation": "is",
+          "object": "the largest known star in the universe"
+        }
+      ],
+      "topic": "astronomy"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on Wikipedia information, UY Scuti is described as one of the largest known stars, but newer findings identify Stephenson 2-18 as the largest known star, making the claim that UY Scuti is the largest known star false.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Upwards of 97% of people are thought to have experienced déjà vu at least once.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "97% of people",
+          "relation": "are thought to have experienced",
+          "object": "déjà vu at least once"
+        }
+      ],
+      "topic": "psychology"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: Based on available sources, the prevalence of déjà vu reported in studies is generally around 60-80%, with no credible evidence supporting a figure as high as 97%; therefore the claim is not supported.",
+      "Answer: False"
+    ]
+  },
+  {
+    "claim": "Modern wings are often swept back or have winglets to reduce drag and increase lift.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Modern wings",
+          "relation": "are",
+          "object": "often swept back or have winglets"
+        },
+        {
+          "subject": "wings",
+          "relation": "reduce",
+          "object": "drag"
+        },
+        {
+          "subject": "wings",
+          "relation": "increase",
+          "object": "lift"
+        }
+      ],
+      "topic": "Aerodynamics"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The Wikipedia summaries for 'Winglet' state they reduce induced drag and improve fuel efficiency, while 'Swept wing' is used in high-speed aircraft to delay shockwaves and reduce drag at transonic speeds, contributing to aerodynamic efficiency. Both are common features on modern aircraft to reduce drag and improve performance, which includes lift efficiency. Thus the claim is supported.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Working with educators and others to help people become more familiar with health information and services and build their health literacy skills over time is a way to improve public health literacy and promote health education.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Working with educators and others",
+          "relation": "helps",
+          "object": "people become more familiar with health information and services"
+        },
+        {
+          "subject": "Working with educators and others",
+          "relation": "helps",
+          "object": "build health literacy skills over time"
+        },
+        {
+          "subject": "Building health literacy skills",
+          "relation": "is a way to",
+          "object": "improve public health literacy"
+        },
+        {
+          "subject": "Building health literacy skills",
+          "relation": "is a way to",
+          "object": "promote health education"
+        }
+      ],
+      "topic": "Health Literacy and Health Education"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The provided background directly supports the statement, showing that working with educators helps familiarization and skill building, which in turn improves public health literacy and promotes health education.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Marie Curie was born Maria Sklodowska in Warsaw, Poland in 1867 to two schoolteachers who raised her with little money in a poverty-stricken neighborhood.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Marie Curie",
+          "relation": "was born",
+          "object": "Maria Sklodowska"
+        },
+        {
+          "subject": "Marie Curie",
+          "relation": "was born in",
+          "object": "Warsaw, Poland"
+        },
+        {
+          "subject": "Marie Curie",
+          "relation": "was born in",
+          "object": "1867"
+        },
+        {
+          "subject": "Marie Curie's parents",
+          "relation": "were",
+          "object": "two schoolteachers"
+        },
+        {
+          "subject": "Marie Curie's parents",
+          "relation": "raised her with",
+          "object": "little money"
+        },
+        {
+          "subject": "Marie Curie's neighborhood",
+          "relation": "was",
+          "object": "poverty-stricken"
+        }
+      ],
+      "topic": "Biography/History"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reliable sources confirm Marie Curie's birth name was Maria Skłodowska, born in Warsaw in 1867; her parents were both teachers and the family had limited financial means, living in a modest, impoverished area.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "AI can help diagnose diseases, analyze images, predict outcomes, and personalize treatments.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "AI",
+          "relation": "can help",
+          "object": "diagnose diseases"
+        },
+        {
+          "subject": "AI",
+          "relation": "can help",
+          "object": "analyze images"
+        },
+        {
+          "subject": "AI",
+          "relation": "can help",
+          "object": "predict outcomes"
+        },
+        {
+          "subject": "AI",
+          "relation": "can help",
+          "object": "personalize treatments"
+        }
+      ],
+      "topic": "Healthcare and Technology"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources confirm that AI is used to diagnose diseases, analyze medical images, predict outcomes, and personalize treatments in healthcare.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "CCS and CCUS are acknowledged as promising technologies to mitigate global warming but are stated to face challenges such as high costs, technical uncertainties, regulatory barriers, public acceptance, and environmental risks.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "CCS",
+          "relation": "are acknowledged as",
+          "object": "promising technologies"
+        },
+        {
+          "subject": "CCUS",
+          "relation": "are acknowledged as",
+          "object": "promising technologies"
+        },
+        {
+          "subject": "technologies",
+          "relation": "to mitigate",
+          "object": "global warming"
+        },
+        {
+          "subject": "technologies",
+          "relation": "face",
+          "object": "challenges"
+        },
+        {
+          "subject": "challenges",
+          "relation": "include",
+          "object": "high costs"
+        },
+        {
+          "subject": "challenges",
+          "relation": "include",
+          "object": "technical uncertainties"
+        },
+        {
+          "subject": "challenges",
+          "relation": "include",
+          "object": "regulatory barriers"
+        },
+        {
+          "subject": "challenges",
+          "relation": "include",
+          "object": "public acceptance"
+        },
+        {
+          "subject": "challenges",
+          "relation": "include",
+          "object": "environmental risks"
+        }
+      ],
+      "topic": "Environmental Technology and Policy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (e.g., IPCC, IEA, academic reviews) describe carbon capture and storage (CCS) and carbon capture utilization and storage (CCUS) as promising climate mitigation technologies, while also highlighting major challenges: high capital and operational costs, technical uncertainties around capture efficiency and storage integrity, regulatory and permitting hurdles, limited public acceptance, and potential environmental risks such as leakage. These points directly match the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The Amazon rainforest is home to at least 430 different species of mammals.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The Amazon rainforest",
+          "relation": "is home to",
+          "object": "at least 430 different species of mammals"
+        }
+      ],
+      "topic": "Ecology/Biodiversity"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Multiple reputable sources (e.g., Wikipedia, WWF) state that the Amazon rainforest is home to at least 430 mammal species, confirming the claim.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The first large-scale desalination plant was built in Aruba in 1930.",
+    "label": "false",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "The first large-scale desalination plant",
+          "relation": "was built in",
+          "object": "Aruba in 1930"
+        }
+      ],
+      "topic": "History of technology and infrastructure"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: The claim aligns with widely reported historical data that the first large-scale seawater desalination plant was constructed in Aruba in 1930 to support the oil refinery and local water supply.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "Kepler discovered massive \"super-Earths\" and \"hot Jupiters\", such as Kepler-10b and Kepler-13Ab.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "Kepler",
+          "relation": "discovered",
+          "object": "massive 'super-Earths'"
+        },
+        {
+          "subject": "Kepler",
+          "relation": "discovered",
+          "object": "'hot Jupiters'"
+        },
+        {
+          "subject": "Kepler",
+          "relation": "discovered",
+          "object": "Kepler-10b"
+        },
+        {
+          "subject": "Kepler",
+          "relation": "discovered",
+          "object": "Kepler-13Ab"
+        }
+      ],
+      "topic": "Astronomy"
+    },
+    "prediction": "True",
+    "react_trace": [
+      "Thought: Evidence shows Kepler-10b is a super-Earth discovered by the Kepler mission, and Kepler-13Ab is a hot Jupiter also discovered by Kepler. Therefore the claim is true.",
+      "Answer: True"
+    ]
+  },
+  {
+    "claim": "The first crossword puzzle was titled “FUN’s Word-Cross Puzzle”.",
+    "label": "true",
+    "decomposition": {
+      "triplets": [
+        {
+          "subject": "first crossword puzzle",
+          "relation": "was titled",
+          "object": "FUN’s Word-Cross Puzzle"
+        }
+      ],
+      "topic": "History of Games/Puzzles"
+    },
+    "prediction": "False",
+    "react_trace": [
+      "Thought: The first crossword puzzle was created by Arthur Wynne and published in the New York World on Dec 21, 1913, titled \"Word-Cross\" (later renamed \"Crossword\"). No evidence of the title \"FUN’s Word-Cross Puzzle\". Therefore the claim is false.",
+      "Answer: False"
+    ]
+  }
+]
