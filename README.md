@@ -1,1 +1,1 @@
-# CoReMem
+# MERMAID
