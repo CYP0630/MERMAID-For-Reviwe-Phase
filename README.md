@@ -1,1 +1,1 @@
-# MERMAID-For-Reviwe-Phase
+# CoReMem
